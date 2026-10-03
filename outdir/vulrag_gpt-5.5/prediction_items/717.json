@@ -1,0 +1,21 @@
+{
+  "row_id": 717,
+  "pair_id": "p358",
+  "idx": 211845,
+  "target": 1,
+  "cluster": "ImageMagick6:1aea203eb36409ce6903b9e41fe7cb70030e8750",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p822",
+      "cause": 0,
+      "solution": 1,
+      "call_ids": [
+        "3486daf38f00a4c9a65622f442ed567771c9fa2a3e4ae30377ac0ef1f3610d90",
+        "fa812e30cbe835d0e3af9a5f6726a62080489f827b8a417fabec127e33972ead"
+      ]
+    }
+  ]
+}

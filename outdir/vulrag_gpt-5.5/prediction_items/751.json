@@ -1,0 +1,21 @@
+{
+  "row_id": 751,
+  "pair_id": "p375",
+  "idx": 212871,
+  "target": 1,
+  "cluster": "newsbeuter:96e9506ae9e252c548665152d1b8968297128307",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p2878",
+      "cause": 1,
+      "solution": 1,
+      "call_ids": [
+        "643a4ff70b0624dd34d952932e579698dafb91c10e59e91a8ef332e7c4bccac9",
+        "7ca45d96456c9ff51dc6a102bf9d446ab8f12de3994cc8f53c2f192c9b3f2ee5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "row_id": 134,
+  "pair_id": "p66",
+  "idx": 231048,
+  "target": 0,
+  "cluster": "FreeRTOS-Kernel:47338393f1f79558f6144213409f09f81d7c4837",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p3325",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "4a5edf7df03d106bcce9d2c7724d1937f4867af4ecf0cce4d560eea30368b29c",
+        "682a3e882da0cac5bd89840718be60d1fb72d76696a9e470a58a8e9720db372e"
+      ]
+    },
+    {
+      "knowledge_id": "p433",
+      "cause": 0,
+      "solution": 1,
+      "call_ids": [
+        "4d3694acdb7e8678a0cf832e992fe509243c14df8b80215f06b6e1cf08b0ecd9",
+        "031da81a4f2af1aeaec6ade622f3502d44e3b79f1e1e1c08a087de47b2713437"
+      ]
+    }
+  ]
+}

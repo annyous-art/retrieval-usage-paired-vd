@@ -1,0 +1,54 @@
+{
+ "database_search": {
+  "engine": "Semantic Scholar bulk search",
+  "query": "(\"vulnerability detection\" | \"vulnerability detector\" | \"vulnerable code\" | \"vulnerability identification\") + (LLM | LLMs | \"large language model\" | \"large language models\" | GPT | ChatGPT) + (retrieval | RAG | \"in-context\" | \"few-shot\" | knowledge | demonstration | demonstrations | exemplar | examples)",
+  "years": "2023-2026",
+  "retrieved_at": "2026-09-25",
+  "identified": 417,
+  "topic_vulnerability_detection": 355,
+  "after_title_exclusion": 274,
+  "mention_retrieval_icl_or_knowledge": 106
+ },
+ "citation_tracking": {
+  "seeds": [
+   "Vul-RAG",
+   "PrimeVul",
+   "LLM4Vuln"
+  ],
+  "citing_papers": 535,
+  "title_screened_candidates": 50
+ },
+ "included": 30,
+ "included_found_by_database_search": 27,
+ "included_found_by_citation_tracking": 13,
+ "included_found_by_either": 27,
+ "included_only_by_venue_lists_or_manual_search": [
+  "Steenhoek2024",
+  "REEF2025",
+  "Ni2026"
+ ],
+ "per_code_multilabel": {
+  "A": 13,
+  "B": 2,
+  "C": 4,
+  "D": 10,
+  "E": 7
+ },
+ "compared_modes_A_to_D_any": 25,
+ "only_E": 5,
+ "unclassified": [],
+ "evaluation_studies": 9,
+ "multi_label_studies": [
+  "Steenhoek2024",
+  "LProtector2024",
+  "RASMVul2026",
+  "VulRetriever2026",
+  "HybridRAG2026"
+ ],
+ "by_year": {
+  "2023": 1,
+  "2024": 8,
+  "2025": 6,
+  "2026": 15
+ }
+}

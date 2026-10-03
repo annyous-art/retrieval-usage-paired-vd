@@ -1,0 +1,31 @@
+key,title_match,year,venue,A,B,C,D,E,eval,note
+Zhou2024,Large Language Model for Vulnerability Detection: Emerging Results,2024,ICSE NIER,1,0,0,0,0,0,CodeBERT top-K demonstrations
+Steenhoek2024,To Err is Machine,2024,arXiv,1,0,1,0,0,1,RAG demonstrations + contrastive vuln/fixed pairs
+GRACE2024,GRACE: Empowering LLM-based software vulnerability detection,2024,JSS,1,0,0,0,0,0,semantic+lexical+syntactic demo retrieval
+DLAP2025,DLAP: A Deep Learning Augmented Large Language Model Prompting,2025,JSS 219:112234,1,0,0,0,0,0,LSH demos with DL confidence
+Hannan2026,On the Difficulty of Selecting Few-Shot Examples,2026,LAST-X 2026 (NDSS workshop),1,0,0,0,0,1,kNN demonstration selection
+Ouchebara2025,Llama-Based Source Code Vulnerability Detection,2025,ESORICS 2025,1,0,0,0,0,1,"CodeBERT+FAISS 6 demos; PrimeVul (balanced, unpaired); Table 1 macro-F1 zero/random/sameCWE/RAG 0.41/0.64/0.63/0.67"
+REEF2025,REEF,2026,EMSE,1,0,0,0,0,0,BM25 3 demos; EMSE 31:110 (2026)
+Antal2026,Evaluating Retrieval-Augmented Generation for LLM-Based Vulnerability Detection,2026,IEEE Access,1,0,0,0,0,1,"up to 3 vulnerable + up to 3 secure similar examples, retrieved independently (not vuln/fix pairs); 89/144 (61.8%) empty at cosine 0.6"
+WAITI2024,Software Vulnerability Detection Using LLM: Does Additional Information Help,2024,ACSAC workshop (WAITI),0,0,0,0,1,0,"CodeBERT/SBERT match to CWE description, then examples of that CWE + equal non-vulnerable"
+Ni2026,Learning-based Models for Vulnerability Detection: An Extensive Study,2026,EMSE,1,0,0,0,0,1,ICL demo selection strategies
+GPTICL2023,Software Vulnerability Detection with GPT and In-Context Learning,2023,DSC,1,0,0,0,0,0,BM25/TF-IDF retrieval of similar training code + its vulnerability info; random-retrieval ablation
+ConColl2025,A Sequential Multi-Stage Approach for Code Vulnerability Detection,2025,EMNLP,1,0,0,0,0,0,RAG with external examples + multi-agent
+LProtector2024,LProtector,2024,ICDSCA 2024,0,1,0,0,1,0,embedding retrieval of Big-Vul code+CWE metadata
+RASMVul2026,Retrieval-Augmented Semantic Mapping for Vulnerability Detection,2026,Electronics,0,1,1,1,0,0,5 indices incl. diff; predicted suspicious lines as query
+VulRetriever2026,VulRetriever,2026,CSCWD,1,0,1,0,0,0,whole-function retrieval from vulnerable-only index; entries merge pre/post-fix + diff + GPT-4 description
+HybridRAG2026,Automated Vulnerability Detection and Remediation in Source Code Using Large Language Models with Retrieval,2026,ICDCA,0,0,1,0,1,0,"CWE theory corpus + historical commits (vulnerable code, fixed code, message), top-3 each; function-level binary"
+VulRAG2024,Vul-RAG,2024,TOSEM,0,0,0,1,0,0,knowledge from CVE vuln/fix pairs; LLM-generated description query
+Kaniewski2026,Revisiting Vul-RAG,2026,ARES workshop,0,0,0,1,0,1,"Vul-RAG replication on PairVul (586 Linux pairs); pairwise acc 0.24-0.29 for most open-weight models, plateau ~0.30"
+VulInstruct2025,VulInstruct,2025,PACMSE (FSE),0,0,0,1,0,0,specifications mined from patches
+CLEAR2026,CLEAR: Causal Context-Based Agentic Reasoning,2026,arXiv,0,0,0,1,0,0,LLM-extracted entrypoints -> causal KG
+LLM4Vuln2024,LLM4Vuln,2024,arXiv,0,0,0,1,0,1,vuln reports / summarized knowledge top-3
+LSAST2025,Boosting Cybersecurity Vulnerability Scanning based on LLM-supported Static,2024,IFIP SEC,0,0,0,1,0,0,HackerOne reports; summary+syntax queries
+IPVRAG2025,Boosting Inter-Procedural Vulnerability Detection via Retrieval-Augmented Generation,2025,ICPADS poster,0,0,0,1,0,0,knowledge + pruned DFG
+VulKGRAG2026,VulKG-RAG,2026,CSCWD,0,0,0,1,0,0,graph-enhanced knowledge retrieval
+MulVul2026,MulVul,2026,ACL,0,0,0,1,0,0,agents retrieve from vulnerability knowledge bases
+VulTriage2026,VulTriage,2026,arXiv,0,0,0,0,1,0,CWE entries via LLM-generated queries + structure
+VulKnow2026,VulKnow,2026,IEEE IoT J,0,0,0,0,1,0,CWE/CVE + library specification knowledge
+JCP2026,Raw CVE/CWE Retrieval Does Not Improve,2026,J. Cybersecur. Priv.,0,0,0,0,1,1,raw CVE/CWE retrieval; dose audit
+CASCON2025,An Empirical Evaluation of LLM-Based Approaches for Code Vulnerability Detection: RAG,2025,CASCON,0,0,0,0,1,1,internet + MITRE CWE knowledge
+SLMEnsemble2026,RAG-Enhanced Multi-Model Ensemble for Automated Vulnerability Detection Using SLMs,2026,ICECTE,1,0,0,0,0,0,MiniLM top-K similar code fragments from DiverseVul

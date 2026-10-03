@@ -1,0 +1,21 @@
+{
+  "row_id": 868,
+  "pair_id": "p433",
+  "idx": 522329,
+  "target": 0,
+  "cluster": "libMeshb:8cd68c54e0647c0030ae4506a225ad4a2655c316",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p3525",
+      "cause": 0,
+      "solution": 1,
+      "call_ids": [
+        "d1b22e48c6f88b018f38f2347d0a2f86b25549b83770eddb5a167f935e1ae1ba",
+        "996962a46354a670e1d78c72f7d52ee3d6bc5ead8ab56d50a45996523d4f0100"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "row_id": 708,
+  "pair_id": "p353",
+  "idx": 450812,
+  "target": 0,
+  "cluster": "gnulib:2d1bd71ec70a31b01d01b734faa66bb1ed28961f",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p2270",
+      "cause": 0,
+      "solution": 1,
+      "call_ids": [
+        "800e74d1174b51e5acd1c352ee28216dd5c554544016d01fc8ccf590e9601e95",
+        "f8666c802a75c926da1e366b2c305e7ef9bb865aac3ff7686eb0fb57ef09ba96"
+      ]
+    }
+  ]
+}

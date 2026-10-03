@@ -1,0 +1,380 @@
+{
+ "pairs": 431,
+ "basis": "431 resolvable pairs",
+ "rows": {
+  "No-code prior": {
+   "GLM-5.1": {
+    "YES": 0.0,
+    "Acc.": 0.5,
+    "F1": 0.0,
+    "P-C": 0.0,
+    "functions": 862,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "YES": 0.0,
+    "Acc.": 0.5,
+    "F1": 0.0,
+    "P-C": 0.0,
+    "functions": 862,
+    "pairs": 431
+   },
+   "Claude Opus 4.7": {
+    "YES": 0.0,
+    "Acc.": 0.5,
+    "F1": 0.0,
+    "P-C": 0.0,
+    "functions": 862,
+    "pairs": 431
+   },
+   "DeepSeek-V4-Pro": {
+    "YES": 0.892,
+    "Acc.": 0.503,
+    "F1": 0.643,
+    "P-C": 0.097,
+    "functions": 862,
+    "pairs": 431
+   }
+  },
+  "No-code + PrimeVul two-shot": {
+   "GLM-5.1": {
+    "YES": 0.0,
+    "Acc.": 0.5,
+    "F1": 0.0,
+    "P-C": 0.0,
+    "functions": 862,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "YES": 0.0,
+    "Acc.": 0.5,
+    "F1": 0.0,
+    "P-C": 0.0,
+    "functions": 862,
+    "pairs": 431
+   },
+   "Claude Opus 4.7": {
+    "YES": 0.0,
+    "Acc.": 0.5,
+    "F1": 0.0,
+    "P-C": 0.0,
+    "functions": 862,
+    "pairs": 431
+   },
+   "DeepSeek-V4-Pro": {
+    "YES": 0.0,
+    "Acc.": 0.5,
+    "F1": 0.0,
+    "P-C": 0.0,
+    "functions": 862,
+    "pairs": 431
+   }
+  },
+  "No-code + flipped two-shot": {
+   "GLM-5.1": {
+    "YES": 0.0,
+    "Acc.": 0.5,
+    "F1": 0.0,
+    "P-C": 0.0,
+    "functions": 862,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "YES": 0.0,
+    "Acc.": 0.5,
+    "F1": 0.0,
+    "P-C": 0.0,
+    "functions": 862,
+    "pairs": 431
+   },
+   "Claude Opus 4.7": {
+    "YES": 0.0,
+    "Acc.": 0.5,
+    "F1": 0.0,
+    "P-C": 0.0,
+    "functions": 862,
+    "pairs": 431
+   },
+   "DeepSeek-V4-Pro": {
+    "YES": 0.0,
+    "Acc.": 0.5,
+    "F1": 0.0,
+    "P-C": 0.0,
+    "functions": 862,
+    "pairs": 431
+   }
+  },
+  "Skeleton only": {
+   "GLM-5.1": {
+    "YES": 0.212,
+    "Acc.": 0.501,
+    "F1": 0.3,
+    "P-C": 0.049,
+    "functions": 862,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "YES": 0.008,
+    "Acc.": 0.506,
+    "F1": 0.027,
+    "P-C": 0.014,
+    "functions": 862,
+    "pairs": 431
+   },
+   "Claude Opus 4.7": {
+    "YES": 0.288,
+    "Acc.": 0.495,
+    "F1": 0.36,
+    "P-C": 0.05,
+    "functions": 852,
+    "pairs": 421
+   },
+   "DeepSeek-V4-Pro": {
+    "YES": 0.442,
+    "Acc.": 0.501,
+    "F1": 0.47,
+    "P-C": 0.135,
+    "functions": 862,
+    "pairs": 431
+   }
+  },
+  "Metadata without CWE": {
+   "GLM-5.1": {
+    "YES": 0.771,
+    "Acc.": 0.503,
+    "F1": 0.609,
+    "P-C": 0.053,
+    "functions": 862,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "YES": 0.456,
+    "Acc.": 0.506,
+    "F1": 0.483,
+    "P-C": 0.146,
+    "functions": 862,
+    "pairs": 431
+   },
+   "Claude Opus 4.7": {
+    "YES": 0.912,
+    "Acc.": 0.498,
+    "F1": 0.644,
+    "P-C": 0.014,
+    "functions": 862,
+    "pairs": 431
+   },
+   "DeepSeek-V4-Pro": {
+    "YES": 0.147,
+    "Acc.": 0.506,
+    "F1": 0.237,
+    "P-C": 0.06,
+    "functions": 862,
+    "pairs": 431
+   }
+  },
+  "Metadata with CWE": {
+   "GLM-5.1": {
+    "YES": 0.98,
+    "Acc.": 0.499,
+    "F1": 0.661,
+    "P-C": 0.007,
+    "functions": 862,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "YES": 0.555,
+    "Acc.": 0.491,
+    "F1": 0.517,
+    "P-C": 0.135,
+    "functions": 862,
+    "pairs": 431
+   },
+   "Claude Opus 4.7": {
+    "YES": 0.986,
+    "Acc.": 0.5,
+    "F1": 0.664,
+    "P-C": 0.002,
+    "functions": 862,
+    "pairs": 431
+   },
+   "DeepSeek-V4-Pro": {
+    "YES": 0.352,
+    "Acc.": 0.494,
+    "F1": 0.406,
+    "P-C": 0.081,
+    "functions": 862,
+    "pairs": 431
+   }
+  },
+  "CWE only": {
+   "GLM-5.1": {
+    "YES": 1.0,
+    "Acc.": 0.5,
+    "F1": 0.667,
+    "P-C": 0.0,
+    "functions": 862,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "YES": 0.24,
+    "Acc.": 0.485,
+    "F1": 0.304,
+    "P-C": 0.142,
+    "functions": 862,
+    "pairs": 431
+   },
+   "Claude Opus 4.7": {
+    "YES": 0.999,
+    "Acc.": 0.501,
+    "F1": 0.667,
+    "P-C": 0.002,
+    "functions": 862,
+    "pairs": 431
+   },
+   "DeepSeek-V4-Pro": {
+    "YES": 0.379,
+    "Acc.": 0.487,
+    "F1": 0.417,
+    "P-C": 0.1,
+    "functions": 862,
+    "pairs": 431
+   }
+  },
+  "Code + metadata without CWE": {
+   "GLM-5.1": {
+    "YES": 0.737,
+    "Acc.": 0.51,
+    "F1": 0.604,
+    "P-C": 0.077,
+    "functions": 862,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "YES": 0.693,
+    "Acc.": 0.545,
+    "F1": 0.619,
+    "P-C": 0.148,
+    "functions": 862,
+    "pairs": 431
+   },
+   "Claude Opus 4.7": {
+    "YES": 0.894,
+    "Acc.": 0.527,
+    "F1": 0.661,
+    "P-C": 0.076,
+    "functions": 810,
+    "pairs": 382
+   },
+   "DeepSeek-V4-Pro": {
+    "YES": 0.258,
+    "Acc.": 0.505,
+    "F1": 0.346,
+    "P-C": 0.051,
+    "functions": 862,
+    "pairs": 431
+   }
+  },
+  "Code + metadata with CWE": {
+   "GLM-5.1": {
+    "YES": 0.727,
+    "Acc.": 0.506,
+    "F1": 0.597,
+    "P-C": 0.065,
+    "functions": 862,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "YES": 0.502,
+    "Acc.": 0.557,
+    "F1": 0.558,
+    "P-C": 0.176,
+    "functions": 862,
+    "pairs": 431
+   },
+   "Claude Opus 4.7": {
+    "YES": 0.627,
+    "Acc.": 0.567,
+    "F1": 0.614,
+    "P-C": 0.194,
+    "functions": 820,
+    "pairs": 391
+   },
+   "DeepSeek-V4-Pro": {
+    "YES": 0.335,
+    "Acc.": 0.522,
+    "F1": 0.428,
+    "P-C": 0.067,
+    "functions": 862,
+    "pairs": 431
+   }
+  },
+  "Code + PrimeVul two-shot": {
+   "GLM-5.1": {
+    "YES": 0.773,
+    "Acc.": 0.498,
+    "F1": 0.605,
+    "P-C": 0.06,
+    "functions": 862,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "YES": 0.798,
+    "Acc.": 0.537,
+    "F1": 0.643,
+    "P-C": 0.114,
+    "functions": 862,
+    "pairs": 431
+   },
+   "Claude Opus 4.7": {
+    "YES": 0.56,
+    "Acc.": 0.575,
+    "F1": 0.6,
+    "P-C": 0.193,
+    "functions": 862,
+    "pairs": 431
+   },
+   "DeepSeek-V4-Pro": {
+    "YES": 0.761,
+    "Acc.": 0.505,
+    "F1": 0.607,
+    "P-C": 0.049,
+    "functions": 862,
+    "pairs": 431
+   }
+  },
+  "Code + flipped two-shot": {
+   "GLM-5.1": {
+    "YES": 0.674,
+    "Acc.": 0.527,
+    "F1": 0.597,
+    "P-C": 0.109,
+    "functions": 862,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "YES": 0.797,
+    "Acc.": 0.527,
+    "F1": 0.635,
+    "P-C": 0.1,
+    "functions": 862,
+    "pairs": 431
+   },
+   "Claude Opus 4.7": {
+    "YES": 0.64,
+    "Acc.": 0.549,
+    "F1": 0.604,
+    "P-C": 0.155,
+    "functions": 862,
+    "pairs": 431
+   },
+   "DeepSeek-V4-Pro": {
+    "YES": 0.76,
+    "Acc.": 0.506,
+    "F1": 0.608,
+    "P-C": 0.046,
+    "functions": 862,
+    "pairs": 431
+   }
+  }
+ }
+}

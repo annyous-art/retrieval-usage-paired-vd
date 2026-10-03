@@ -1,0 +1,55 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Credentials and local endpoint configuration
+.env
+.env.*
+*.key
+*.pem
+experiments/knowledge_rag/gateway_config_local.py
+
+# Logs and model artifacts
+*.log
+nohup.out
+*.safetensors
+*.bin
+*.faiss
+
+# Files regenerated locally: run outputs restored by tools/expand_predictions.py and
+# LaTeX tables written by analysis/fse_revision_20260923/make_rq_tables.py
+outdir/**/*.jsonl
+data/gpt-5.5_*.jsonl
+tables/
+!outdir/empirical_study/bias_controlled_glm51_test870_extra/glm-5.1_metadata_no_cwe.jsonl
+
+# Restored by tools/expand_predictions.py (code-free auxiliary records)
+icl/primevul_test_ccpp_with_similar_top5.jsonl
+outdir/oracle_fc_*/*/config.json
+# Written by figures/plot_*.py
+figures/*.pdf
+figures/*.png
+figures/*_values.json
+# Rebuilt locally from MegaVul's release by tools/build_megavul_java.py
+data/second_dataset/*.jsonl
+data/second_dataset/megavul_java/
+# Retrieval runs on a GPU server (experiments/java_rq1_server, experiments/java_b_relabel)
+out/
+
+# Rebuilt locally from the official PrimeVul file by tools/build_labeled_test.py
+data/primevul_test_paired.jsonl
+data/primevul_test_paired_labeled.jsonl
+!outdir/empirical_study/bias_controlled_gpt55_test870/gpt-5.5_metadata_no_cwe.jsonl
+!outdir/empirical_study/bias_controlled_claude47_test870/claude-opus-4-7_metadata_no_cwe.jsonl
+!outdir/empirical_study/bias_controlled_deepseek_test870/deepseek-v4-pro-0813_no_code_prior.jsonl
+!outdir/empirical_study/bias_controlled_deepseek_test870/deepseek-v4-pro-0813_metadata_no_cwe.jsonl
+!outdir/empirical_study/bias_controlled_deepseek_test870/deepseek-v4-pro-0813_metadata_only.jsonl
+!outdir/empirical_study/bias_controlled_deepseek_test870/deepseek-v4-pro-0813_cwe_only.jsonl
+!outdir/empirical_study/bias_controlled_gpt55_test870/gpt-5.5_no_code_author_fewshot.jsonl
+!outdir/empirical_study/bias_controlled_gpt55_test870/gpt-5.5_no_code_flipped_fewshot.jsonl
+!outdir/empirical_study/bias_controlled_claude47_test870/claude-opus-4-7_skeleton_only.jsonl
+!outdir/empirical_study/bias_controlled_claude47_test870/claude-opus-4-7_no_code_author_fewshot.jsonl
+!outdir/empirical_study/bias_controlled_claude47_test870/claude-opus-4-7_no_code_flipped_fewshot.jsonl
+!outdir/empirical_study/bias_controlled_deepseek_test870/deepseek-v4-pro-0813_skeleton_only.jsonl
+!outdir/empirical_study/bias_controlled_deepseek_test870/deepseek-v4-pro-0813_no_code_author_fewshot.jsonl
+!outdir/empirical_study/bias_controlled_deepseek_test870/deepseek-v4-pro-0813_no_code_flipped_fewshot.jsonl

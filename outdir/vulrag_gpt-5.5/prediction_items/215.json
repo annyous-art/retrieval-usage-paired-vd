@@ -1,0 +1,21 @@
+{
+  "row_id": 215,
+  "pair_id": "p107",
+  "idx": 197111,
+  "target": 1,
+  "cluster": "tinyexr:a685e3332f61cd4e59324bf3f669d36973d64270",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p2164",
+      "cause": 0,
+      "solution": 1,
+      "call_ids": [
+        "aa7c05dc51fd7fdb7dfc1041ec8600d3ec5999d9929d5d8df8feeac9ee7c1093",
+        "95e460bac0dce880568f002eb1b3a0a8cc7e8b97d778d24e5564fa03f7f94b4a"
+      ]
+    }
+  ]
+}

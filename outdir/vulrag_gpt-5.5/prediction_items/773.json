@@ -1,0 +1,21 @@
+{
+  "row_id": 773,
+  "pair_id": "p386",
+  "idx": 214124,
+  "target": 1,
+  "cluster": "chafa:e6ce3746cdcf0836b9dae659a5aed15d73a080d8",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p292",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "3083e87c654f16c1f33f624abbbecadb092194d6cf75319289d350032d2cab39",
+        "0cb51f294e3a7e23766083582bdcb6da346c122abd5ee8c5d96eff19fd40b326"
+      ]
+    }
+  ]
+}

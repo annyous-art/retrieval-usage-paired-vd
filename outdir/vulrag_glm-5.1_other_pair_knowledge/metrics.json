@@ -1,0 +1,22 @@
+{
+  "planned": 870,
+  "completed": 870,
+  "complete": true,
+  "confusion_known": {
+    "TP": 80,
+    "FP": 45,
+    "TN": 390,
+    "FN": 355
+  },
+  "F1_known_only": 0.2857142857142857,
+  "YES_rate_known": 0.14367816091954022,
+  "pair_outcomes": {
+    "P-B": 326,
+    "P-C": 64,
+    "P-V": 16,
+    "P-R": 29
+  },
+  "P-C_all_planned": 0.1471264367816092,
+  "exhausted_no_match": 369,
+  "note": "Positive-class F1 for our paired benchmark; differs from upstream averaged-precision/recall F1. Exhausted -1 mapped to NO as in official evaluator; failed API/parser jobs remain unknown. Incomplete known-only rates are not comparable."
+}

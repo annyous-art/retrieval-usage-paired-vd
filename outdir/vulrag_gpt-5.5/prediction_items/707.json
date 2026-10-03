@@ -1,0 +1,39 @@
+{
+  "row_id": 707,
+  "pair_id": "p353",
+  "idx": 211699,
+  "target": 1,
+  "cluster": "gnulib:2d1bd71ec70a31b01d01b734faa66bb1ed28961f",
+  "raw_final_result": -1,
+  "prediction": 0,
+  "decision_status": "exhausted_no_match",
+  "trace": [
+    {
+      "knowledge_id": "p2514",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "5e631d9180f01159550ec20808ab60b7417f93f864e4398a21e982d26134b46d",
+        "84081ba27430fd4839367669d27824fb79545bad57ef1131be8a27554c40c13d"
+      ]
+    },
+    {
+      "knowledge_id": "p2270",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "c8fd3a5e6a580684cb82235f5957f2ba31f6ba59448736fac3a65b6fab216be1",
+        "cab4ba26d19f177230f56284890ed43ee6c8d048aae99796ef30202e6319546a"
+      ]
+    },
+    {
+      "knowledge_id": "p36",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "98fec69058ee2c406ef109a340fc2344b946bd1968d530be3a4594649aece255",
+        "fe11afc2f1aeacfbbc1036c6fb774c238b013e2d65a5c98101a0a11eece82cdf"
+      ]
+    }
+  ]
+}

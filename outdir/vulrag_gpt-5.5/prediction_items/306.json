@@ -1,0 +1,21 @@
+{
+  "row_id": 306,
+  "pair_id": "p152",
+  "idx": 274773,
+  "target": 0,
+  "cluster": "mruby:3cf291f72224715942beaf8553e42ba8891ab3c6",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p2219",
+      "cause": 1,
+      "solution": 1,
+      "call_ids": [
+        "b5bffc4f05927b81835d6a0554ea972e2b30847a9b83b96c0e8d029aa3484676",
+        "321a80131d7a561cbebe9e7c568740f926db3d80980970fc365c54f5dc2ff270"
+      ]
+    }
+  ]
+}

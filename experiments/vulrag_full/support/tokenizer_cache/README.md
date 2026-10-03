@@ -1,0 +1,1 @@
+Offline tiktoken vocabularies from https://openaipublic.blob.core.windows.net/encodings/o200k_base.tiktoken and https://openaipublic.blob.core.windows.net/encodings/cl100k_base.tiktoken. Cache names are URL SHA-1 values; SHA-256 contents are pinned in context_budget.py. See LICENSE.tiktoken. No model weights or credentials.

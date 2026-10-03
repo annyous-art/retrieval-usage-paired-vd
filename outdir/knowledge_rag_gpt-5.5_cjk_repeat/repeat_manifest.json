@@ -1,0 +1,36 @@
+{
+ "source": "outdir/knowledge_rag_gpt-5.5",
+ "source_sha256": {
+  "detection_jobs.jsonl": "03d7967cb1aaafbafc2ddd7bd0c8aaf717db7da7ce1f0c4705e1b77ebdd20975",
+  "predictions.jsonl": "5ca29b18796b87d6d4e5913d4aceab5f40130f136b81a9ad59f83ec90cb28770",
+  "knowledge_responses.jsonl": "7f3ad2f450c6d1c2524e93fda867f8a0a5fbe1808f0504cbb445fd89447d0d9c",
+  "extraction_jobs.jsonl": "5fc9ddd6c01a8db60963f615d9b20886722439c4e0351edd60e8633a9b1acef5",
+  "targets.jsonl": "1117d0ff08ec6db8ce7870b624eef853b4742bbb21182c4ab9b1ccf84e2e0074",
+  "metrics.json": "afaba9880813486b2998ba27aeb0431e240dc7f8e37b4d725dace4400029f1f1"
+ },
+ "config": {
+  "context_policy_sha256": "87ab6869d58b9f3f5cdb30833f6dd7331bdd8957cda9899ca80fdd2ccfb8ed0f",
+  "model": "gpt-5.5",
+  "api_client_sha256": "6214b46fe76e87d85d6145455c195189f772ce23d67de4aad80b155b4187c912",
+  "base_url": "<openai-compatible endpoint>",
+  "temperature": 0,
+  "max_tokens": 4096,
+  "prompt_strategy": "std",
+  "seed": 20260915
+ },
+ "selection": "original answer contains CJK characters",
+ "selected_ids": [
+  "8c9e844677231ae2626e7c6a6963fbbe8a462163ba6195036b40ba422f72a691",
+  "5b3f14e04badb8e2fc8bb7c1560eb33176ee6cfc160f6e7848a65152978278de",
+  "ce91db3f7222dcb4cbc986e1389c9fb713d386f4d2b1e204c3cb52bab2e64f46",
+  "227065c06f3b0d793323c80546db863106a7d91009d95cfde6bf7347b72a24db"
+ ],
+ "total": 3480,
+ "selected": 4,
+ "code_sha256": {
+  "repeat_cjk_detection.py": "fe4868619c22b0727ea56a8d1fe021cf09d4ad96a00dff88fe2dea7aab2cf44d",
+  "concurrent_runner.py": "d720c97c6aed0627c1cdc2e8fe4ebdaf1238958491b6f78825f3eb7152256008",
+  "experiment.py": "25f82968ca948492072670079c5eb024f1172d0afc7d078c156223054dc646f0"
+ },
+ "design": "Repeat selected detection requests; keep original knowledge and all new returned names; one successful parseable response per selected ID; failed calls can be resumed."
+}

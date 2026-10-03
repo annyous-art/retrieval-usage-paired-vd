@@ -1,0 +1,21 @@
+{
+  "row_id": 212,
+  "pair_id": "p105",
+  "idx": 250692,
+  "target": 0,
+  "cluster": "drogon:3c785326c63a34aa1799a639ae185bc9453cb447",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p2214",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "ee923d995262bd5eb1552f647b1f61ba8176addc2d9da79e6914acfeae8e5017",
+        "9dd95d75a9157fd147ee30da3779506277297addf9f178f4a05bdbe6f2e446d3"
+      ]
+    }
+  ]
+}

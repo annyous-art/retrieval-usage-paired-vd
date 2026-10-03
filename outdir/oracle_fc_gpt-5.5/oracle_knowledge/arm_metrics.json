@@ -1,0 +1,20 @@
+{
+  "arm": "oracle_knowledge",
+  "pairs": 435,
+  "counts": {
+    "P-C": 344,
+    "P-V": 54,
+    "P-B": 34,
+    "P-R": 3,
+    "unknown": 0
+  },
+  "rates": {
+    "P-C": 0.7908,
+    "P-V": 0.1241,
+    "P-B": 0.0782,
+    "P-R": 0.0069,
+    "unknown": 0.0
+  },
+  "input_tokens": 5342504,
+  "output_tokens": 72874
+}

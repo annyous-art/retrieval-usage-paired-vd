@@ -1,0 +1,21 @@
+{
+  "row_id": 370,
+  "pair_id": "p184",
+  "idx": 301429,
+  "target": 0,
+  "cluster": "samba:eb50fb8f3bf670bd7d1cf8fd4368ef4a73083696",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p1091",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "04c4ca7c106f4d23d9e44fcab8317c321f597f635b49985fbe4f83842d3b9909",
+        "d746e4692dd9e2e4fef61cb3117200b6f672ae414d614e8c3ef6284df4edc955"
+      ]
+    }
+  ]
+}

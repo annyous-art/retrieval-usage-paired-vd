@@ -1,0 +1,21 @@
+{
+  "row_id": 771,
+  "pair_id": "p385",
+  "idx": 214003,
+  "target": 1,
+  "cluster": "libvncserver:7b1ef0ffc4815cab9a96c7278394152bdc89dc4d",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p10",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "8cdc07197bc849bef1ae4deb8d9b394c9a3ba784f4eb1f6050bcfc6fb0abcfb9",
+        "42cbb87437bc4a32b322dc6ad3e71c935c2444e2b416189db8d5e904dbdf0927"
+      ]
+    }
+  ]
+}

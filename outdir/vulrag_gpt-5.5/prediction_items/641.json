@@ -1,0 +1,39 @@
+{
+  "row_id": 641,
+  "pair_id": "p320",
+  "idx": 210551,
+  "target": 1,
+  "cluster": "oniguruma:4d461376bd85e7994835677b2ff453a43c49cd28",
+  "raw_final_result": -1,
+  "prediction": 0,
+  "decision_status": "exhausted_no_match",
+  "trace": [
+    {
+      "knowledge_id": "p3105",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "9bdf2f7aaedfddaf5e127be05bf3973ec6fee24ea76c0ae5a71979c260053b10",
+        "71c06208ea06a68bd9bc9110dc542c9e97e031723eaec7877ab1b6760c6fe220"
+      ]
+    },
+    {
+      "knowledge_id": "p3107",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "65837c995083b38718035dbe93e2508a1039a76dd6e4364ba8ee5bdc48cb1254",
+        "9d3f022412ef790f498a2ab6cdafa83e7d953c56a223ecfa748c720f34d8d558"
+      ]
+    },
+    {
+      "knowledge_id": "p757",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "94eed9a153c11f047dbccb78463681cc5ab725ece10acd570e1193d00163a141",
+        "b44f3f6f42bb5af00a15b16e3dd51520a817345796bf16388e213ab10e707bbe"
+      ]
+    }
+  ]
+}

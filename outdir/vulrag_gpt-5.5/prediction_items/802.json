@@ -1,0 +1,21 @@
+{
+  "row_id": 802,
+  "pair_id": "p400",
+  "idx": 483469,
+  "target": 0,
+  "cluster": "mongo:a5e2f9b0a236462a6d1ca129583c617f111367b4",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p923",
+      "cause": 0,
+      "solution": 1,
+      "call_ids": [
+        "49442f707ab320df3d2da899385180f10084cd3e621d1dda3d4e3fba06f34639",
+        "23d9cce45f625d9d69d9e2151b0a56eef5ff9cb50ca8bfe1b95cf1d123feac62"
+      ]
+    }
+  ]
+}

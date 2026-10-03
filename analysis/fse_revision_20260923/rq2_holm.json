@@ -1,0 +1,246 @@
+{
+ "same": [
+  {
+   "test": "GPT-5.5 | D | Vul-RAG",
+   "p": 0.0013,
+   "p_holm": 0.0267,
+   "significant_after_holm": true
+  },
+  {
+   "test": "GLM-5.1 | A | Four retrieved demonstrations",
+   "p": 0.0247,
+   "p_holm": 0.4687,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | E | CVE descriptions",
+   "p": 0.072,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | D | Vul-RAG",
+   "p": 0.0793,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | E | CVE descriptions",
+   "p": 0.148,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | D | Extracted knowledge",
+   "p": 0.1633,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | B | Two-shot with retrieved chunks",
+   "p": 0.164,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | E | CWE entries, description query",
+   "p": 0.1727,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | A | One retrieved demonstration",
+   "p": 0.256,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | A | Two retrieved demonstrations",
+   "p": 0.4047,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | A | One retrieved demonstration",
+   "p": 0.5593,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | B | Two-shot with retrieved chunks",
+   "p": 0.5633,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | C | Complete code pair",
+   "p": 0.6087,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | D | Extracted knowledge",
+   "p": 0.6767,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | A | Four retrieved demonstrations",
+   "p": 0.694,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | C | Complete code pair",
+   "p": 0.7573,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | E | CWE entries, description query",
+   "p": 0.904,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | A | Two retrieved demonstrations",
+   "p": 0.9553,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | E | CWE entries, code query",
+   "p": 0.9687,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | E | CWE entries, code query",
+   "p": 1.0,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  }
+ ],
+ "different": [
+  {
+   "test": "GPT-5.5 | A | Four retrieved demonstrations",
+   "p": 0.0153,
+   "p_holm": 0.3067,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | B | Two-shot with retrieved chunks",
+   "p": 0.022,
+   "p_holm": 0.418,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | E | CVE descriptions",
+   "p": 0.086,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | D | Vul-RAG",
+   "p": 0.1613,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | C | Complete code pair",
+   "p": 0.224,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | D | Extracted knowledge",
+   "p": 0.2733,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | A | One retrieved demonstration",
+   "p": 0.3407,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | A | Four retrieved demonstrations",
+   "p": 0.4933,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | A | Two retrieved demonstrations",
+   "p": 0.5593,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | C | Complete code pair",
+   "p": 0.586,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | D | Vul-RAG",
+   "p": 0.6087,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | E | CVE descriptions",
+   "p": 0.7107,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | E | CWE entries, code query",
+   "p": 0.7653,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | E | CWE entries, description query",
+   "p": 0.7887,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | A | Two retrieved demonstrations",
+   "p": 0.7927,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | E | CWE entries, code query",
+   "p": 0.824,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | A | One retrieved demonstration",
+   "p": 0.9027,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | B | Two-shot with retrieved chunks",
+   "p": 0.9447,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GLM-5.1 | E | CWE entries, description query",
+   "p": 0.9933,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  },
+  {
+   "test": "GPT-5.5 | D | Extracted knowledge",
+   "p": 1.0,
+   "p_holm": 1.0,
+   "significant_after_holm": false
+  }
+ ]
+}

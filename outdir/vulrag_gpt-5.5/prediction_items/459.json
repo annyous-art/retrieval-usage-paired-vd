@@ -1,0 +1,21 @@
+{
+  "row_id": 459,
+  "pair_id": "p229",
+  "idx": 204115,
+  "target": 1,
+  "cluster": "openldap:3539fc33212b528c56b716584f2c2994af7c30b0",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p28",
+      "cause": 0,
+      "solution": 1,
+      "call_ids": [
+        "0c7f9d32743f2951c164049da3068cd669d8bcecdef69b5612efcb89fab1abd3",
+        "8a429837d29a6799524846957e5eaa48b624d854703b5b4f21011470784e1481"
+      ]
+    }
+  ]
+}

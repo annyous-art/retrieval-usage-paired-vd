@@ -1,0 +1,21 @@
+{
+  "row_id": 401,
+  "pair_id": "p200",
+  "idx": 201913,
+  "target": 1,
+  "cluster": "libarchive:e2ad1a2c3064fa9eba6274b3641c4c1beed25c0b",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p1907",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "0627f8668ff3c5227b0ee9d6736e966f4ec85313e9b224981937a6daf06f5ac6",
+        "0a6a2ec74ed6817ae8dfddb95715161d6ae33927a72b1f9d547d9ef548155280"
+      ]
+    }
+  ]
+}

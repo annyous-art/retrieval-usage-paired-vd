@@ -1,0 +1,52 @@
+{
+ "protocol": {
+  "model": "gpt-5.5",
+  "provider": "newapi",
+  "base_url": "<openai-compatible endpoint>",
+  "temperature": 0.01,
+  "output_tokens": 16384,
+  "prompt_strategy": "std",
+  "retrieval_top_k": 20,
+  "max_knowledge": 3,
+  "early_return": true,
+  "upstream_commit": "38aa707fdb6bf592f1ed7753e90af400d3b9dcd3",
+  "code_sha256": {
+   "run.py": "fbe86adab6041a6e5678ecfaaf9269f9a5a31980e40ebdbd9cc6f0acc778da95",
+   "prompts.py": "925b7e515f7f4c26ebc99322a40ec5c9cc43afcc9ea831f8ba0e8d86c1bb5430",
+   "retrieval.py": "2ea5789523009fee466134a2789f9c1f7f3d39f67a1e8655dcedaff8b92ce43f",
+   "data_utils.py": "d6e401b05c7eb71422148959d343a72c8db2e62bda92e5a72ce981c7cc486048",
+   "requirements.txt": "a66497fb5fdb40b88f46d74b044e5a98edb6f5ee7cd1397cc6eb928792a35d36",
+   "provenance.json": "bc44d5faf4b3c36da42c9ddc86b416843a0ea56a4bf858e6c72eeea199e322e6",
+   "gateway_client.py": "6214b46fe76e87d85d6145455c195189f772ce23d67de4aad80b155b4187c912",
+   "context_budget.py": "06d9654700fcf51c9c77a78e0ddef9e88d69791adf18224a503a88a749ca9288",
+   "context_budgets.json": "87ab6869d58b9f3f5cdb30833f6dd7331bdd8957cda9899ca80fdd2ccfb8ed0f"
+  },
+  "profile": "official-repository-README-adapted-v1",
+  "runtime": {
+   "python": "3.10.20",
+   "numpy": "2.2.5",
+   "spacy": "3.8.7",
+   "en-core-web-sm": "3.8.0",
+   "rank-bm25": "0.2.2",
+   "tiktoken": "0.12.0",
+   "requests": "2.32.3"
+  }
+ },
+ "fingerprint": "ba487b98d6caef7dba22a4dd60c6f4eef8e704d640bb199f2911f32ac1274c23",
+ "source_manifest_sha256": "94fd9ad0afeca428c71f709d64cef390138ac54b6bc447006f01b4f45d540ad8",
+ "train_file_sha256": "1c4adb2cc600fd58d461b8d4ebd1e0a240e2b8c11c37da9cde204940a81b1cd9",
+ "test_file_sha256": "878134e69d6c3d6eef57abe40ac62ac81bbe718e2f27a33fab21c4e7548bb4c8",
+ "pool_sha256": "8e3abe4f4185cb40acfcf9ff07fcf3a5ac0d0b665c53e59af06113296745cef0",
+ "targets_sha256": "af86183020e72ef55c1bd09580e2092714819017b51a4196f1bece11203c06f1",
+ "training_pairs": 3721,
+ "test_rows": 870,
+ "test_pairs": 435,
+ "missing_training_cve_description": 0,
+ "logical_call_upper_bounds_no_retries": {
+  "kb": 14884,
+  "query": 1740,
+  "detect": 5220
+ },
+ "annotation_required": false,
+ "no_api_calls_during_prepare": true
+}

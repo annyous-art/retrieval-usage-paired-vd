@@ -1,0 +1,21 @@
+{
+  "row_id": 329,
+  "pair_id": "p164",
+  "idx": 198703,
+  "target": 1,
+  "cluster": "LibRaw:4606c28f494a750892c5c1ac7903e62dd1c6fdb5",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p2927",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "7367d9c4acca0d51e67e2279a7c874269b74d5d951e711fa299a6be84e36ebd1",
+        "46f21fe3399d068fa19ed9c6bf4e9f3394f50261afabf3d5ff042e1725f0eb83"
+      ]
+    }
+  ]
+}

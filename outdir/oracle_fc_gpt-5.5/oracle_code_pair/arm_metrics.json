@@ -1,0 +1,20 @@
+{
+  "arm": "oracle_code_pair",
+  "pairs": 435,
+  "counts": {
+    "P-C": 318,
+    "P-V": 114,
+    "P-B": 2,
+    "P-R": 1,
+    "unknown": 0
+  },
+  "rates": {
+    "P-C": 0.731,
+    "P-V": 0.2621,
+    "P-B": 0.0046,
+    "P-R": 0.0023,
+    "unknown": 0.0
+  },
+  "input_tokens": 8138245,
+  "output_tokens": 67071
+}

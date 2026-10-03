@@ -1,0 +1,21 @@
+{
+  "row_id": 713,
+  "pair_id": "p356",
+  "idx": 211785,
+  "target": 1,
+  "cluster": "jasper:4cd52b5daac62b00a0a328451544807ddecf775f",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p1704",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "8c8884b8ac4f8d8ce84fe5f3c9818a0ffdd3692cbd03d2210f1d606812584da7",
+        "daa086891905151b238f95e3b2968cd8d3b80eb4cebcd662dfdbf883138d88fa"
+      ]
+    }
+  ]
+}

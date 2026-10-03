@@ -1,0 +1,21 @@
+{
+  "row_id": 797,
+  "pair_id": "p398",
+  "idx": 215038,
+  "target": 1,
+  "cluster": "gst-plugins-good:b31c504645a814c59d91d49e4fe218acaf93f4ca",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p1566",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "baf393598335fa3b4917ece20eefe9e4f7852487696a7d2aa10d818f8c7d28a2",
+        "0e33a42d313e4abd83ca2867bae1f0d969d5e7d290f771012e76ba9b94a10d18"
+      ]
+    }
+  ]
+}

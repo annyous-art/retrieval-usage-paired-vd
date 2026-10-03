@@ -1,0 +1,39 @@
+{
+  "row_id": 816,
+  "pair_id": "p407",
+  "idx": 489124,
+  "target": 0,
+  "cluster": "linux-2.6:ba0166708ef4da7eeb61dd92bbba4d5a749d6561",
+  "raw_final_result": -1,
+  "prediction": 0,
+  "decision_status": "exhausted_no_match",
+  "trace": [
+    {
+      "knowledge_id": "p1648",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "024ef44ad2cdcf900450eaac1d0699b81149280f53bd70c54e833d2782660419",
+        "aee6e6878a1b6bbeaf12699d3c5d4c6fdc164fa95b9e4d718942dc793de9bea3"
+      ]
+    },
+    {
+      "knowledge_id": "p1662",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "6318a02f30f299414f2556e82695b3b17e639d5351345411d7baccd753df683c",
+        "046aaf5ce625e44097b977b3ba6afcfa2b9ef229a799a47e6391912e5938d613"
+      ]
+    },
+    {
+      "knowledge_id": "p346",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "2494919816e0c3b1cc7286ccf905de52ce2ab01ac3ea8ca24e5531dcf8f41c47",
+        "1fb149f81db73ab9bd0a1ba212415ab859cd0edb152c7ba1b5919c1453bc56c5"
+      ]
+    }
+  ]
+}

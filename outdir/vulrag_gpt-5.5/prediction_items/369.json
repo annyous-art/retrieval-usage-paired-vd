@@ -1,0 +1,39 @@
+{
+  "row_id": 369,
+  "pair_id": "p184",
+  "idx": 200320,
+  "target": 1,
+  "cluster": "samba:eb50fb8f3bf670bd7d1cf8fd4368ef4a73083696",
+  "raw_final_result": -1,
+  "prediction": 0,
+  "decision_status": "exhausted_no_match",
+  "trace": [
+    {
+      "knowledge_id": "p1050",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "789948fcde4141f2a6db2530f29ba5da2b8448ee517429442349309ddc3258d6",
+        "74cefce7365d61ce16ed28d3c84889a13ee6abec350df0578857fae69d051518"
+      ]
+    },
+    {
+      "knowledge_id": "p1091",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "67fe93c1ae37eb717ce72c66f2f330a09719cad690b5ed7351ebe503019eef47",
+        "3fe74bcb9bab31d93dfec62bc742d2a450dd6a4249fcb037ab2a0edd9b97c9d6"
+      ]
+    },
+    {
+      "knowledge_id": "p2055",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "84bbf82b940020f0660cb19042dc9b1e831910e613de05e2c315420e16374209",
+        "5efc947809682a4ce97a143c898836cec67d7103ac04afd1d858aae47b1ad53d"
+      ]
+    }
+  ]
+}

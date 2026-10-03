@@ -1,0 +1,21 @@
+{
+  "row_id": 182,
+  "pair_id": "p90",
+  "idx": 242899,
+  "target": 0,
+  "cluster": "tensorflow:67bfd9feeecfb3c61d80f0e46d89c170fbee682b",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p2289",
+      "cause": 0,
+      "solution": 1,
+      "call_ids": [
+        "89bc6ab173b7b5e21c6aa2402c264806e9a56f31d338a671437b12e11dd446c6",
+        "150cf965a3b9968a2ec76af5e5218f921e89fc0b9bfd1dc57301038ae38e5ceb"
+      ]
+    }
+  ]
+}

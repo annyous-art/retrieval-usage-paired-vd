@@ -1,0 +1,21 @@
+{
+  "row_id": 462,
+  "pair_id": "p230",
+  "idx": 353124,
+  "target": 0,
+  "cluster": "poppler:b224e2f5739fe61de9fa69955d016725b2a4b78d",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p10",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "4cf5290399d09ace5ad8a3b3cc898062a87602a47a9b843cd586ac0555a965f5",
+        "7e55a7dc6ebb237fff677b0756d665364ad07f246b8e53b66f4bfab313c29f8f"
+      ]
+    }
+  ]
+}

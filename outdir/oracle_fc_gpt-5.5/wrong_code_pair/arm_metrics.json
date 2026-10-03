@@ -1,0 +1,20 @@
+{
+  "arm": "wrong_code_pair",
+  "pairs": 435,
+  "counts": {
+    "P-C": 73,
+    "P-V": 210,
+    "P-B": 110,
+    "P-R": 42,
+    "unknown": 0
+  },
+  "rates": {
+    "P-C": 0.1678,
+    "P-V": 0.4828,
+    "P-B": 0.2529,
+    "P-R": 0.0966,
+    "unknown": 0.0
+  },
+  "input_tokens": 7979511,
+  "output_tokens": 203928
+}

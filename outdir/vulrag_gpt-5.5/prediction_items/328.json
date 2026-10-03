@@ -1,0 +1,21 @@
+{
+  "row_id": 328,
+  "pair_id": "p163",
+  "idx": 281247,
+  "target": 0,
+  "cluster": "MilkyTracker:fd607a3439fcdd0992e5efded3c16fc79c804e34",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p1507",
+      "cause": 0,
+      "solution": 1,
+      "call_ids": [
+        "c375378d1716f97f0fb3dbe2f67cf48f7f2601a775af61ab59c0936b3433867c",
+        "f9d50f9af884cc4b5ffacc5c71576d416ec7a6628b7932c343bb901e496d05f0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "row_id": 251,
+  "pair_id": "p125",
+  "idx": 197517,
+  "target": 1,
+  "cluster": "unmatched:p125",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p3008",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "46b7cafe888fc7cc9d80e7d23eb421aaeb86f934b57d0c061dcc72e28b85d159",
+        "9ad2035ce3fa2fd4d46558a26d3a464165f6c57fc49d5f57b15f564e8cf773c7"
+      ]
+    }
+  ]
+}

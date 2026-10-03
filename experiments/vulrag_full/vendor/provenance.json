@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/KnowledgeRAG4LLMVulD/KnowledgeRAG4LLMVulD",
+  "commit": "38aa707fdb6bf592f1ed7753e90af400d3b9dcd3",
+  "files": {
+    "extract_knowledge.py": "1224567bfb9b4bc158d9a35dc1251d36b88a4e4f73c3b198662255f004507aff",
+    "vulnerability_detect.py": "702cf7cb01d1c8d641d946547a973d4a3e460653b34f1e019c5324f32feaf2ac",
+    "bm25_retriever.py": "045db573d7376271e0afe1a1c6fbcc09e5a95629147b76c3abfbc490059622bc",
+    "README.md": "19109e34e53436ffa92a8ba47d9e22d98731852e73c1b38b452a9c65ef22de9a",
+    "LICENSE": "69c60a0f2f48108ae53860fb9438cae971fb83661e6fd289278bb7461dc183f4"
+  }
+}

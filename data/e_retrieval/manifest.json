@@ -1,0 +1,28 @@
+{
+ "cwe_list_version": "4.20",
+ "cwe_weakness_entries": 756,
+ "cve_entries": 3235,
+ "test_cves_excluded_from_corpus": 31,
+ "target_rows": 870,
+ "top_n_stored": 10,
+ "top_k_in_prompt": 3,
+ "extended_description_words": 150,
+ "code_model": "Salesforce/codet5p-110m-embedding",
+ "text_model": "sentence-transformers/all-mpnet-base-v2",
+ "code_encoding": "CodeT5+ 110M embedding output, max 512 tokens, L2-normalised, inner product",
+ "cwe_filter": "not deprecated; not in the Hardware Design view (CWE-1194); Applicable_Platforms lists C/C++, Not Language-Specific, Compiled, or no platform",
+ "inputs_sha256": {
+  "cwe_xml": "1f5a78bd62e00f86436b4fe32d5034a57e8f0da88e4063b2072b664ae510912e",
+  "targets": "1117d0ff08ec6db8ce7870b624eef853b4742bbb21182c4ab9b1ccf84e2e0074",
+  "queries": "72b8d6154fd361db3180c7641b4dffd0158ec5bd2d79eac9b42830764dae5908",
+  "train": "1c4adb2cc600fd58d461b8d4ebd1e0a240e2b8c11c37da9cde204940a81b1cd9",
+  "test": "878134e69d6c3d6eef57abe40ac62ac81bbe718e2f27a33fab21c4e7548bb4c8"
+ },
+ "outputs_sha256": {
+  "cve_entries.jsonl": "b4f8d2d57b88984d4f1a4b601fb14208ebe943c79fd0d5866c19e1b885f4709f",
+  "cwe_entries.jsonl": "0254e3da6f0c09d7e87bc11a36ccfe6ecfd1d7fbab7e9818fce87f0a88e41e46",
+  "retrieval_cve_desc.jsonl": "67e86971e924c541373cf6146502b8cce6826da5aaac518973e8c884c8784dac",
+  "retrieval_cwe_code.jsonl": "5ec44f38d707251a0930f06e1a124331a88ea888632df6d1a15d305e1ce076d7",
+  "retrieval_cwe_desc.jsonl": "e273e9bc3d0dc3d3d5830dc3a58b47eb26ec37b30a0a63901b37013df4eff950"
+ }
+}

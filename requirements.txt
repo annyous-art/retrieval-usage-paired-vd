@@ -1,0 +1,15 @@
+anthropic
+faiss-cpu
+numpy
+openai
+pandas
+rank-bm25
+requests
+scikit-learn
+tiktoken
+torch
+tqdm
+transformers
+sentence-transformers
+matplotlib
+pillow

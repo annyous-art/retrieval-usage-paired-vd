@@ -1,0 +1,21 @@
+{
+  "row_id": 602,
+  "pair_id": "p300",
+  "idx": 424522,
+  "target": 0,
+  "cluster": "FreeRDP:06c32f170093a6ecde93e3bc07fed6a706bfbeb3",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p2617",
+      "cause": 0,
+      "solution": 1,
+      "call_ids": [
+        "bf97f9c25320992f65e8562a1ba1b2124f15f83a296c2e92e2eadb52231ff06a",
+        "f7ce74be8e983ce628d18e1af699b2696b814267c0fb3f02639bae37b08f6e47"
+      ]
+    }
+  ]
+}

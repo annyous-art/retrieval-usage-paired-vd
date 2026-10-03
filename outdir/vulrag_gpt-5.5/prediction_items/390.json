@@ -1,0 +1,21 @@
+{
+  "row_id": 390,
+  "pair_id": "p194",
+  "idx": 318099,
+  "target": 0,
+  "cluster": "wireless-drivers:8b51dc7291473093c821195c4b6af85fadedbc2f",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p651",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "02cae2a16086328147467a6065979f2ce552412502fda678588553de5603e534",
+        "1eedb296bb4e2d447dcb3f45f846cbcadf643ae8dc0f90f8cce78d4bd89d08b0"
+      ]
+    }
+  ]
+}

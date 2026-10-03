@@ -1,0 +1,39 @@
+{
+  "row_id": 55,
+  "pair_id": "p27",
+  "idx": 195220,
+  "target": 1,
+  "cluster": "tmate-ssh-server:1c020d1f5ca462f5b150b46a027aaa1bbe3c9596",
+  "raw_final_result": -1,
+  "prediction": 0,
+  "decision_status": "exhausted_no_match",
+  "trace": [
+    {
+      "knowledge_id": "p3407",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "c94f51e37410ffd2593edc35956ff1bd2f344ec31f497a49202a3e0185286bbd",
+        "d51ee106c1a07ea197574e966a19761bb661b85557435a87111393088976a5b2"
+      ]
+    },
+    {
+      "knowledge_id": "p1188",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "5e78d42879b0820cdadc023c79f95742cf013b319435fab5c596252cb8911e3a",
+        "a2359816fb79d7f68442af01a630b253e955e8451ac4a97491ada1ef0ca8cb6a"
+      ]
+    },
+    {
+      "knowledge_id": "p2451",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "7b8e9994af720058ea76409bc9b10f9e57a4b3c6673d6891fbe3aaeda79beca1",
+        "6c5dbf01250eddd66405c1b922432c16a473ceee4310494c301b05133707d4de"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "config": {
+    "context_policy_sha256": "87ab6869d58b9f3f5cdb30833f6dd7331bdd8957cda9899ca80fdd2ccfb8ed0f",
+    "model": "glm-5.1",
+    "api_client_sha256": "6214b46fe76e87d85d6145455c195189f772ce23d67de4aad80b155b4187c912",
+    "base_url": "<openai-compatible endpoint>",
+    "temperature": 0,
+    "max_tokens": 4096,
+    "prompt_strategy": "std",
+    "seed": 20260915
+  },
+  "arms": {
+    "knowledge": "knowledge_claude47",
+    "knowledge_no_fix": "knowledge_no_fix_claude47"
+  },
+  "files": {
+    "targets.jsonl": "1117d0ff08ec6db8ce7870b624eef853b4742bbb21182c4ab9b1ccf84e2e0074",
+    "detection_jobs.jsonl": "f0b35d4af73a0a08ee131f328f64115f0fec56260038f7f07154f737f2df740c"
+  },
+  "knowledge_source_jobs_sha256": "0670714d996981b35ba416dafaae91589ec9747b3065e0966c3e5af61dfd08a1",
+  "predictions_sha256": "ac6f9ffc3fc9dfc35b89f1a336a3754a47db31939d1ba988da0d72c634476506",
+  "script_sha256": "d1e2314fa7a4b69c2c7d2273233adab6c5765ce7d696293e5438d98954b24adb"
+}

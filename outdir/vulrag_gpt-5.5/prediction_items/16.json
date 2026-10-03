@@ -1,0 +1,21 @@
+{
+  "row_id": 16,
+  "pair_id": "p7",
+  "idx": 219947,
+  "target": 0,
+  "cluster": "glewlwyd:125281f1c0d4b6a8b49f7e55a757205a2ef01fbe",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p2027",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "bd7cf38c2ac460a4e9b8d8989539d89d7f490c388fb6e2dc96e35cc1a68950fe",
+        "459781ea118c2d2f52e764a7e587773fe12bf91bdab2e1d356a34079ba929833"
+      ]
+    }
+  ]
+}

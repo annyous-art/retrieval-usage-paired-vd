@@ -1,0 +1,71 @@
+{
+ "pairs": 431,
+ "knowledge": {
+  "same_ordered_top3": 0.058004640371229696,
+  "same_set_top3": 0.12761020881670534,
+  "same_top1": 0.46403712296983757,
+  "any_overlap_top3": 0.8839907192575406
+ },
+ "channels": {
+  "purpose_text": {
+   "same_top1": 0.4245939675174014,
+   "same_top3": 0.08352668213457076,
+   "mean_jaccard_top20": 0.356916963526907
+  },
+  "function_text": {
+   "same_top1": 0.48259860788863107,
+   "same_top3": 0.058004640371229696,
+   "mean_jaccard_top20": 0.38666206763525945
+  },
+  "code": {
+   "same_top1": 0.8816705336426914,
+   "same_top3": 0.6519721577726219,
+   "mean_jaccard_top20": 0.8564824620745499
+  }
+ },
+ "query_text": {
+  "purpose_identical": 0.02088167053364269,
+  "function_identical": 0.0,
+  "purpose_similarity_median": 0.6782608695652174,
+  "function_similarity_median": 0.27336860670194
+ },
+ "detect": {
+  "pairs_with_both_predictions": 431,
+  "yes_rate": 0.29582366589327147,
+  "all": {
+   "pairs": 431,
+   "P-C": 0.1647,
+   "P-V": 0.1763,
+   "P-B": 0.5847,
+   "P-R": 0.0742
+  },
+  "same_top3_set": {
+   "pairs": 55,
+   "P-C": 0.2182,
+   "P-V": 0.2364,
+   "P-B": 0.5455,
+   "P-R": 0.0
+  },
+  "different_top3_set": {
+   "pairs": 376,
+   "P-C": 0.1569,
+   "P-V": 0.1676,
+   "P-B": 0.5904,
+   "P-R": 0.0851
+  },
+  "same_top1": {
+   "pairs": 200,
+   "P-C": 0.145,
+   "P-V": 0.21,
+   "P-B": 0.595,
+   "P-R": 0.05
+  },
+  "different_top1": {
+   "pairs": 231,
+   "P-C": 0.1818,
+   "P-V": 0.1472,
+   "P-B": 0.5758,
+   "P-R": 0.0952
+  }
+ }
+}

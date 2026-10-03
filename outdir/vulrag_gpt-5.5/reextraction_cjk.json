@@ -1,0 +1,38 @@
+{
+ "reextracted_pairs": [
+  "p1390",
+  "p2391",
+  "p2397",
+  "p2398",
+  "p2499",
+  "p2507",
+  "p2854",
+  "p2973",
+  "p3057",
+  "p396",
+  "p451",
+  "p458",
+  "p468",
+  "p470",
+  "p471",
+  "p477"
+ ],
+ "removed_calls": [
+  "kb/p1390/knowledge",
+  "kb/p2391/analysis",
+  "kb/p2397/analysis",
+  "kb/p2398/function",
+  "kb/p2499/analysis",
+  "kb/p2507/purpose",
+  "kb/p2854/analysis",
+  "kb/p2973/purpose",
+  "kb/p3057/analysis",
+  "kb/p396/purpose",
+  "kb/p451/analysis",
+  "kb/p458/purpose",
+  "kb/p468/analysis",
+  "kb/p470/analysis",
+  "kb/p471/analysis",
+  "kb/p477/analysis"
+ ]
+}

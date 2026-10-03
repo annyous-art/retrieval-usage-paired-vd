@@ -1,0 +1,21 @@
+{
+  "row_id": 348,
+  "pair_id": "p173",
+  "idx": 293496,
+  "target": 0,
+  "cluster": "chafa:e4b777c7b7c144cd16a0ea96108267b1004fe6c9",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p132",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "5cd49cc5c8d6a862107fa0a94c2443c508d63176588670cddf895caf15cca536",
+        "18b5c5122043c8d43bae1b1d261209a0602c6095839e0eab243cb913f9c5541e"
+      ]
+    }
+  ]
+}

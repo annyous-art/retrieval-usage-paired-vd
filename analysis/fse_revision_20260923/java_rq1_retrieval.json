@@ -1,0 +1,60 @@
+{
+ "same_items": {
+  "A two demonstrations": {
+   "pairs": 620,
+   "same": 436,
+   "same_pct": 70.3
+  },
+  "B retrieved chunks": {
+   "pairs": 620,
+   "same": 165,
+   "same_pct": 26.6
+  },
+  "C, D candidate": {
+   "pairs": 620,
+   "same": 470,
+   "same_pct": 75.8
+  },
+  "E CWE entries, code query": {
+   "pairs": 620,
+   "same": 342,
+   "same_pct": 55.2
+  },
+  "E CWE entries, description query": {
+   "pairs": 620,
+   "same": 133,
+   "same_pct": 21.5
+  },
+  "E CVE descriptions": {
+   "pairs": 620,
+   "same": 167,
+   "same_pct": 26.9
+  }
+ },
+ "focus": {
+  "PrimeVul": {
+   "same_B_items_all_pairs": 206,
+   "same_B_items_all_pairs_pct": 47.8,
+   "functions": 862,
+   "function_focus_hit_pct": 26.2,
+   "pairs": 431,
+   "neither_focus_hits": 281,
+   "neither_pct": 65.2,
+   "same_B_items_among_neither": 204,
+   "same_B_items_among_neither_pct": 72.6,
+   "vulnerable_function_median_lines": 74
+  },
+  "MegaVul Java": {
+   "same_B_items_all_pairs": 165,
+   "same_B_items_all_pairs_pct": 26.6,
+   "functions": 1240,
+   "function_focus_hit_pct": 56.5,
+   "pairs": 620,
+   "neither_focus_hits": 215,
+   "neither_pct": 34.7,
+   "same_B_items_among_neither": 160,
+   "same_B_items_among_neither_pct": 74.4,
+   "vulnerable_function_median_lines": 21.0
+  }
+ }
+}

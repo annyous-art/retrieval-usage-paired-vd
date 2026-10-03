@@ -1,0 +1,229 @@
+{
+ "family_size": 32,
+ "tests": [
+  {
+   "test": "D | Knowledge fields reversed | GPT-5.5 | net P-C",
+   "p": 0.018,
+   "p_holm": 0.576,
+   "holm_threshold": 0.0016,
+   "significant_after_holm": false
+  },
+  {
+   "test": "C | Repaired code before vulnerable code | GLM-5.1 | net P-C",
+   "p": 0.0247,
+   "p_holm": 0.7647,
+   "holm_threshold": 0.0016,
+   "significant_after_holm": false
+  },
+  {
+   "test": "E | CWE entries reversed (description query) | GPT-5.5 | net P-C",
+   "p": 0.042,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0017,
+   "significant_after_holm": false
+  },
+  {
+   "test": "A | Demonstrations swapped | GLM-5.1 | P-C",
+   "p": 0.0487,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0017,
+   "significant_after_holm": false
+  },
+  {
+   "test": "E | CWE entries reversed (description query) | GPT-5.5 | P-C",
+   "p": 0.0487,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0018,
+   "significant_after_holm": false
+  },
+  {
+   "test": "A | Demonstrations swapped | GLM-5.1 | net P-C",
+   "p": 0.1053,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0019,
+   "significant_after_holm": false
+  },
+  {
+   "test": "B | Chunks regrouped | DeepSeek-V4-Pro | P-C",
+   "p": 0.1213,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0019,
+   "significant_after_holm": false
+  },
+  {
+   "test": "C | Repaired code before vulnerable code | GPT-5.5 | P-C",
+   "p": 0.136,
+   "p_holm": 1.0,
+   "holm_threshold": 0.002,
+   "significant_after_holm": false
+  },
+  {
+   "test": "E | CWE entries reversed (description query) | GLM-5.1 | P-C",
+   "p": 0.218,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0021,
+   "significant_after_holm": false
+  },
+  {
+   "test": "E | Entries shortened | GLM-5.1 | P-C",
+   "p": 0.258,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0022,
+   "significant_after_holm": false
+  },
+  {
+   "test": "D | Knowledge fields reversed | GPT-5.5 | P-C",
+   "p": 0.2587,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0023,
+   "significant_after_holm": false
+  },
+  {
+   "test": "B | Chunks regrouped | DeepSeek-V4-Pro | net P-C",
+   "p": 0.3273,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0024,
+   "significant_after_holm": false
+  },
+  {
+   "test": "E | Entries shortened | Claude Opus 4.7 | net P-C",
+   "p": 0.3493,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0025,
+   "significant_after_holm": false
+  },
+  {
+   "test": "C | Repaired code before vulnerable code | GLM-5.1 | P-C",
+   "p": 0.392,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0026,
+   "significant_after_holm": false
+  },
+  {
+   "test": "E | Entries shortened | Claude Opus 4.7 | P-C",
+   "p": 0.3953,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0028,
+   "significant_after_holm": false
+  },
+  {
+   "test": "E | Entries shortened | DeepSeek-V4-Pro | net P-C",
+   "p": 0.4427,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0029,
+   "significant_after_holm": false
+  },
+  {
+   "test": "C | Repaired code before vulnerable code | GPT-5.5 | net P-C",
+   "p": 0.476,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0031,
+   "significant_after_holm": false
+  },
+  {
+   "test": "E | CWE entries reversed (description query) | GLM-5.1 | net P-C",
+   "p": 0.5293,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0033,
+   "significant_after_holm": false
+  },
+  {
+   "test": "B | Chunks regrouped | GLM-5.1 | net P-C",
+   "p": 0.538,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0036,
+   "significant_after_holm": false
+  },
+  {
+   "test": "E | Entries shortened | GLM-5.1 | net P-C",
+   "p": 0.596,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0038,
+   "significant_after_holm": false
+  },
+  {
+   "test": "D | Knowledge fields reversed | GLM-5.1 | P-C",
+   "p": 0.656,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0042,
+   "significant_after_holm": false
+  },
+  {
+   "test": "E | Entries shortened | DeepSeek-V4-Pro | P-C",
+   "p": 0.6693,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0045,
+   "significant_after_holm": false
+  },
+  {
+   "test": "B | Chunks regrouped | Claude Opus 4.7 | net P-C",
+   "p": 0.6873,
+   "p_holm": 1.0,
+   "holm_threshold": 0.005,
+   "significant_after_holm": false
+  },
+  {
+   "test": "E | Entries shortened | GPT-5.5 | P-C",
+   "p": 0.6913,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0056,
+   "significant_after_holm": false
+  },
+  {
+   "test": "B | Chunks regrouped | GPT-5.5 | net P-C",
+   "p": 0.7313,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0063,
+   "significant_after_holm": false
+  },
+  {
+   "test": "D | Knowledge fields reversed | GLM-5.1 | net P-C",
+   "p": 0.7487,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0071,
+   "significant_after_holm": false
+  },
+  {
+   "test": "B | Chunks regrouped | GPT-5.5 | P-C",
+   "p": 0.76,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0083,
+   "significant_after_holm": false
+  },
+  {
+   "test": "B | Chunks regrouped | GLM-5.1 | P-C",
+   "p": 0.774,
+   "p_holm": 1.0,
+   "holm_threshold": 0.01,
+   "significant_after_holm": false
+  },
+  {
+   "test": "A | Demonstrations swapped | GPT-5.5 | net P-C",
+   "p": 0.8153,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0125,
+   "significant_after_holm": false
+  },
+  {
+   "test": "B | Chunks regrouped | Claude Opus 4.7 | P-C",
+   "p": 0.8793,
+   "p_holm": 1.0,
+   "holm_threshold": 0.0167,
+   "significant_after_holm": false
+  },
+  {
+   "test": "A | Demonstrations swapped | GPT-5.5 | P-C",
+   "p": 0.958,
+   "p_holm": 1.0,
+   "holm_threshold": 0.025,
+   "significant_after_holm": false
+  },
+  {
+   "test": "E | Entries shortened | GPT-5.5 | net P-C",
+   "p": 0.996,
+   "p_holm": 1.0,
+   "holm_threshold": 0.05,
+   "significant_after_holm": false
+  }
+ ]
+}

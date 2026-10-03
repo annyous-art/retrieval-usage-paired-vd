@@ -1,0 +1,74 @@
+{
+ "pairs": 431,
+ "rows": {
+  "B positive-weighted": {
+   "kind": "focus contains a changed line",
+   "all_functions": 26.8,
+   "random_region_expected": 24.8,
+   "either_member": 35.0,
+   "either_member_random_expected": 36.8,
+   "vulnerable": 26.0,
+   "fixed": 27.6
+  },
+  "B balanced grouped BC": {
+   "kind": "focus contains a changed line",
+   "all_functions": 26.2,
+   "random_region_expected": 24.8,
+   "either_member": 34.8,
+   "either_member_random_expected": 36.8,
+   "vulnerable": 27.4,
+   "fixed": 25.1
+  },
+  "C patch contrast": {
+   "kind": "focus contains a changed line",
+   "all_functions": 27.6,
+   "random_region_expected": 24.8,
+   "either_member": 33.6,
+   "either_member_random_expected": 36.8,
+   "vulnerable": 26.2,
+   "fixed": 29.0
+  },
+  "A function-level top-2": {
+   "kind": "shown item carries the NVD weakness",
+   "own_pair": 18.1,
+   "other_pair": 6.3,
+   "vulnerable": 17.2,
+   "fixed": 17.2
+  },
+  "C/D fixed candidate": {
+   "kind": "shown item carries the NVD weakness",
+   "own_pair": 15.5,
+   "other_pair": 5.8,
+   "vulnerable": 14.8,
+   "fixed": 14.8
+  },
+  "D Vul-RAG top-3 knowledge": {
+   "kind": "shown item carries the NVD weakness",
+   "own_pair": 34.3,
+   "other_pair": 19.7,
+   "vulnerable": 27.1,
+   "fixed": 27.1
+  },
+  "E CWE entries, code": {
+   "kind": "top-3 entry carries the NVD weakness",
+   "own_pair": 1.6,
+   "other_pair": 0.9,
+   "vulnerable": 1.4,
+   "fixed": 1.6
+  },
+  "E CWE entries, description": {
+   "kind": "top-3 entry carries the NVD weakness",
+   "own_pair": 2.1,
+   "other_pair": 0.5,
+   "vulnerable": 1.9,
+   "fixed": 1.9
+  },
+  "E CVE descriptions": {
+   "kind": "top-3 entry carries the NVD weakness",
+   "own_pair": 28.1,
+   "other_pair": 16.2,
+   "vulnerable": 23.0,
+   "fixed": 22.0
+  }
+ }
+}

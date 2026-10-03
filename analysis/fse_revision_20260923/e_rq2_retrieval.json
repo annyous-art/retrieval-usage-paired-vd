@@ -1,0 +1,549 @@
+{
+ "pairs": 431,
+ "clusters": 421,
+ "variants": {
+  "cwe_code": {
+   "same_top1": [
+    0.9002,
+    [
+     0.8724,
+     0.9264
+    ]
+   ],
+   "same_top3_set": [
+    0.7842,
+    [
+     0.7443,
+     0.8233
+    ]
+   ],
+   "same_top3_order": [
+    0.6821,
+    [
+     0.6372,
+     0.726
+    ]
+   ],
+   "score_top1": {
+    "within_pair_abs_diff_median": 0.00159,
+    "within_pair_exactly_equal": 0.3063,
+    "between_pair_abs_diff_median": 0.04917,
+    "within_below_between_median": [
+     0.993,
+     [
+      0.9838,
+      1.0
+     ]
+    ]
+   },
+   "score_mean_top3": {
+    "within_pair_abs_diff_median": 0.00155,
+    "within_pair_exactly_equal": 0.3063,
+    "between_pair_abs_diff_median": 0.04598,
+    "within_below_between_median": [
+     0.993,
+     [
+      0.9838,
+      1.0
+     ]
+    ]
+   },
+   "cwe_hit_primevul": {
+    "pairs_with_label": 431,
+    "top1_either_member": {
+     "own_pair": [
+      0.0046,
+      [
+       0.0,
+       0.0116
+      ]
+     ],
+     "other_pair_baseline": [
+      0.0023,
+      [
+       0.0,
+       0.007
+      ]
+     ]
+    },
+    "top1_vulnerable_vs_fixed": {
+     "vulnerable": [
+      0.0046,
+      [
+       0.0,
+       0.0116
+      ]
+     ],
+     "fixed": [
+      0.0046,
+      [
+       0.0,
+       0.0116
+      ]
+     ]
+    },
+    "top3_either_member": {
+     "own_pair": [
+      0.0139,
+      [
+       0.0046,
+       0.0256
+      ]
+     ],
+     "other_pair_baseline": [
+      0.007,
+      [
+       0.0,
+       0.0163
+      ]
+     ]
+    },
+    "top3_vulnerable_vs_fixed": {
+     "vulnerable": [
+      0.0139,
+      [
+       0.0046,
+       0.0256
+      ]
+     ],
+     "fixed": [
+      0.0139,
+      [
+       0.0046,
+       0.0256
+      ]
+     ]
+    }
+   },
+   "cwe_hit_nvd": {
+    "pairs_with_label": 425,
+    "top1_either_member": {
+     "own_pair": [
+      0.0046,
+      [
+       0.0,
+       0.0116
+      ]
+     ],
+     "other_pair_baseline": [
+      0.0023,
+      [
+       0.0,
+       0.007
+      ]
+     ]
+    },
+    "top1_vulnerable_vs_fixed": {
+     "vulnerable": [
+      0.0023,
+      [
+       0.0,
+       0.007
+      ]
+     ],
+     "fixed": [
+      0.0046,
+      [
+       0.0,
+       0.0116
+      ]
+     ]
+    },
+    "top3_either_member": {
+     "own_pair": [
+      0.0162,
+      [
+       0.0046,
+       0.0317
+      ]
+     ],
+     "other_pair_baseline": [
+      0.0093,
+      [
+       0.0023,
+       0.0186
+      ]
+     ]
+    },
+    "top3_vulnerable_vs_fixed": {
+     "vulnerable": [
+      0.0139,
+      [
+       0.0046,
+       0.0255
+      ]
+     ],
+     "fixed": [
+      0.0162,
+      [
+       0.0046,
+       0.0317
+      ]
+     ]
+    }
+   }
+  },
+  "cwe_desc": {
+   "same_top1": [
+    0.594,
+    [
+     0.5469,
+     0.6404
+    ]
+   ],
+   "same_top3_set": [
+    0.2552,
+    [
+     0.2143,
+     0.2953
+    ]
+   ],
+   "same_top3_order": [
+    0.116,
+    [
+     0.0858,
+     0.1468
+    ]
+   ],
+   "score_top1": {
+    "within_pair_abs_diff_median": 0.02293,
+    "within_pair_exactly_equal": 0.0,
+    "between_pair_abs_diff_median": 0.08609,
+    "within_below_between_median": [
+     0.9582,
+     [
+      0.9391,
+      0.9767
+     ]
+    ]
+   },
+   "score_mean_top3": {
+    "within_pair_abs_diff_median": 0.01999,
+    "within_pair_exactly_equal": 0.0,
+    "between_pair_abs_diff_median": 0.08246,
+    "within_below_between_median": [
+     0.9582,
+     [
+      0.9393,
+      0.9767
+     ]
+    ]
+   },
+   "cwe_hit_primevul": {
+    "pairs_with_label": 431,
+    "top1_either_member": {
+     "own_pair": [
+      0.0093,
+      [
+       0.0023,
+       0.0187
+      ]
+     ],
+     "other_pair_baseline": [
+      0.0,
+      [
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    "top1_vulnerable_vs_fixed": {
+     "vulnerable": [
+      0.0093,
+      [
+       0.0023,
+       0.0187
+      ]
+     ],
+     "fixed": [
+      0.007,
+      [
+       0.0,
+       0.0162
+      ]
+     ]
+    },
+    "top3_either_member": {
+     "own_pair": [
+      0.0186,
+      [
+       0.007,
+       0.0325
+      ]
+     ],
+     "other_pair_baseline": [
+      0.0023,
+      [
+       0.0,
+       0.007
+      ]
+     ]
+    },
+    "top3_vulnerable_vs_fixed": {
+     "vulnerable": [
+      0.0162,
+      [
+       0.0047,
+       0.0301
+      ]
+     ],
+     "fixed": [
+      0.0162,
+      [
+       0.0068,
+       0.0298
+      ]
+     ]
+    }
+   },
+   "cwe_hit_nvd": {
+    "pairs_with_label": 425,
+    "top1_either_member": {
+     "own_pair": [
+      0.0093,
+      [
+       0.0023,
+       0.0187
+      ]
+     ],
+     "other_pair_baseline": [
+      0.0,
+      [
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    "top1_vulnerable_vs_fixed": {
+     "vulnerable": [
+      0.007,
+      [
+       0.0,
+       0.0162
+      ]
+     ],
+     "fixed": [
+      0.007,
+      [
+       0.0,
+       0.0162
+      ]
+     ]
+    },
+    "top3_either_member": {
+     "own_pair": [
+      0.0209,
+      [
+       0.0092,
+       0.035
+      ]
+     ],
+     "other_pair_baseline": [
+      0.0046,
+      [
+       0.0,
+       0.0117
+      ]
+     ]
+    },
+    "top3_vulnerable_vs_fixed": {
+     "vulnerable": [
+      0.0186,
+      [
+       0.0069,
+       0.0326
+      ]
+     ],
+     "fixed": [
+      0.0186,
+      [
+       0.007,
+       0.0324
+      ]
+     ]
+    }
+   }
+  },
+  "cve_desc": {
+   "same_top1": [
+    0.5777,
+    [
+     0.53,
+     0.6256
+    ]
+   ],
+   "same_top3_set": [
+    0.3063,
+    [
+     0.2628,
+     0.3517
+    ]
+   ],
+   "same_top3_order": [
+    0.1694,
+    [
+     0.1352,
+     0.2047
+    ]
+   ],
+   "score_top1": {
+    "within_pair_abs_diff_median": 0.01944,
+    "within_pair_exactly_equal": 0.0023,
+    "between_pair_abs_diff_median": 0.08726,
+    "within_below_between_median": [
+     0.949,
+     [
+      0.9279,
+      0.9679
+     ]
+    ]
+   },
+   "score_mean_top3": {
+    "within_pair_abs_diff_median": 0.01901,
+    "within_pair_exactly_equal": 0.0,
+    "between_pair_abs_diff_median": 0.08176,
+    "within_below_between_median": [
+     0.9536,
+     [
+      0.9327,
+      0.9722
+     ]
+    ]
+   },
+   "cwe_hit_primevul": {
+    "pairs_with_label": 431,
+    "top1_either_member": {
+     "own_pair": [
+      0.1299,
+      [
+       0.099,
+       0.1632
+      ]
+     ],
+     "other_pair_baseline": [
+      0.0696,
+      [
+       0.0464,
+       0.0939
+      ]
+     ]
+    },
+    "top1_vulnerable_vs_fixed": {
+     "vulnerable": [
+      0.0974,
+      [
+       0.0718,
+       0.1262
+      ]
+     ],
+     "fixed": [
+      0.0928,
+      [
+       0.0653,
+       0.1221
+      ]
+     ]
+    },
+    "top3_either_member": {
+     "own_pair": [
+      0.2831,
+      [
+       0.2395,
+       0.3263
+      ]
+     ],
+     "other_pair_baseline": [
+      0.181,
+      [
+       0.1462,
+       0.2183
+      ]
+     ]
+    },
+    "top3_vulnerable_vs_fixed": {
+     "vulnerable": [
+      0.2274,
+      [
+       0.1884,
+       0.2664
+      ]
+     ],
+     "fixed": [
+      0.232,
+      [
+       0.1903,
+       0.2734
+      ]
+     ]
+    }
+   },
+   "cwe_hit_nvd": {
+    "pairs_with_label": 425,
+    "top1_either_member": {
+     "own_pair": [
+      0.1206,
+      [
+       0.0886,
+       0.1528
+      ]
+     ],
+     "other_pair_baseline": [
+      0.0534,
+      [
+       0.0325,
+       0.0753
+      ]
+     ]
+    },
+    "top1_vulnerable_vs_fixed": {
+     "vulnerable": [
+      0.0905,
+      [
+       0.0641,
+       0.1185
+      ]
+     ],
+     "fixed": [
+      0.0858,
+      [
+       0.0603,
+       0.114
+      ]
+     ]
+    },
+    "top3_either_member": {
+     "own_pair": [
+      0.2807,
+      [
+       0.2362,
+       0.3248
+      ]
+     ],
+     "other_pair_baseline": [
+      0.1624,
+      [
+       0.1282,
+       0.1972
+      ]
+     ]
+    },
+    "top3_vulnerable_vs_fixed": {
+     "vulnerable": [
+      0.2297,
+      [
+       0.1894,
+       0.2691
+      ]
+     ],
+     "fixed": [
+      0.2204,
+      [
+       0.1799,
+       0.26
+      ]
+     ]
+    }
+   }
+  }
+ }
+}

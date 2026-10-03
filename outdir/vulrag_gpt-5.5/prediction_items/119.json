@@ -1,0 +1,21 @@
+{
+  "row_id": 119,
+  "pair_id": "p59",
+  "idx": 195471,
+  "target": 1,
+  "cluster": "weechat:9904cb6d2eb40f679d8ff6557c22d53a3e3dc75a",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p2826",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "2d6e6a66f880a1fdb857a0dc175a6f3594ed93abcc1a3374d3949aec2366d871",
+        "7e92353b1f8a92fba672eaa6b4d463222e3d1d02b22abca8c196ad77a541139c"
+      ]
+    }
+  ]
+}

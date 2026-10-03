@@ -1,0 +1,21 @@
+{
+  "row_id": 415,
+  "pair_id": "p207",
+  "idx": 202304,
+  "target": 1,
+  "cluster": "vim:65b605665997fad54ef39a93199e305af2fe4d7f",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p3105",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "5978a66b9f06e6a413a6b067a1a75b61a4e2100b585fcc85e10825988459527e",
+        "b2e59ab05533ff1a73716ab3b7e8d7487e2f31ea91a2cc9d39994bde232aa26c"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+ "functions": 870,
+ "nvd_own_assessment": {
+  "shared": 532,
+  "rate": 0.6115
+ },
+ "all_assessments": {
+  "shared": 644,
+  "rate": 0.7402
+ }
+}

@@ -1,0 +1,21 @@
+{
+  "row_id": 730,
+  "pair_id": "p364",
+  "idx": 455356,
+  "target": 0,
+  "cluster": "bash:951bdaad7a18cc0dc1036bba86b18b90874d39ff",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p3406",
+      "cause": 1,
+      "solution": 1,
+      "call_ids": [
+        "20807de1fedad058facc6c2842bc8c5208541905dedd2b2f03a1523a95ccfc74",
+        "48c387e9c8a667d1d89b4f87eb639286670d6c1aac5e34a6d89c0ae5eabf16d6"
+      ]
+    }
+  ]
+}

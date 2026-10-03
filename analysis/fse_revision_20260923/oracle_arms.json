@@ -1,0 +1,753 @@
+{
+ "pairs": 431,
+ "models": {
+  "gpt-5.5": {
+   "checks": {
+    "oracle_code_pair": {
+     "jobs": 870,
+     "answers": 868,
+     "config_model": "gpt-5.5",
+     "derangement_shift": null,
+     "evidence_from_own_pair": 435,
+     "pairs": 435
+    },
+    "oracle_knowledge": {
+     "jobs": 870,
+     "answers": 868,
+     "config_model": "gpt-5.5",
+     "derangement_shift": null,
+     "evidence_from_own_pair": 435,
+     "pairs": 435
+    },
+    "wrong_code_pair": {
+     "jobs": 870,
+     "answers": 868,
+     "config_model": "gpt-5.5",
+     "derangement_shift": 1,
+     "evidence_from_own_pair": 0,
+     "pairs": 435
+    }
+   },
+   "methods": {
+    "no_retrieval": {
+     "answered_pairs": 431,
+     "unknown_functions": 0,
+     "counts": {
+      "P-C": 67,
+      "P-V": 199,
+      "P-B": 142,
+      "P-R": 23
+     },
+     "P-C": 15.54524361948956,
+     "P-V": 46.17169373549884,
+     "P-B": 32.94663573085847,
+     "P-R": 5.336426914153132,
+     "YES": 56.61252900232019
+    },
+    "code_pair": {
+     "answered_pairs": 431,
+     "unknown_functions": 0,
+     "counts": {
+      "P-C": 79,
+      "P-V": 203,
+      "P-B": 117,
+      "P-R": 32
+     },
+     "P-C": 18.329466357308586,
+     "P-V": 47.09976798143852,
+     "P-B": 27.1461716937355,
+     "P-R": 7.424593967517401,
+     "YES": 59.976798143851504
+    },
+    "knowledge": {
+     "answered_pairs": 431,
+     "unknown_functions": 0,
+     "counts": {
+      "P-C": 50,
+      "P-V": 75,
+      "P-B": 276,
+      "P-R": 30
+     },
+     "P-C": 11.600928074245939,
+     "P-V": 17.40139211136891,
+     "P-B": 64.03712296983758,
+     "P-R": 6.960556844547564,
+     "YES": 26.68213457076566
+    },
+    "oracle_code_pair": {
+     "answered_pairs": 431,
+     "unknown_functions": 0,
+     "counts": {
+      "P-C": 317,
+      "P-V": 111,
+      "P-B": 2,
+      "P-R": 1
+     },
+     "P-C": 73.54988399071925,
+     "P-V": 25.754060324825982,
+     "P-B": 0.46403712296983757,
+     "P-R": 0.23201856148491878,
+     "YES": 62.64501160092807
+    },
+    "oracle_knowledge": {
+     "answered_pairs": 431,
+     "unknown_functions": 0,
+     "counts": {
+      "P-C": 340,
+      "P-V": 54,
+      "P-B": 34,
+      "P-R": 3
+     },
+     "P-C": 78.88631090487239,
+     "P-V": 12.529002320185615,
+     "P-B": 7.888631090487238,
+     "P-R": 0.6960556844547563,
+     "YES": 52.320185614849194
+    },
+    "wrong_code_pair": {
+     "answered_pairs": 431,
+     "unknown_functions": 0,
+     "counts": {
+      "P-C": 73,
+      "P-V": 206,
+      "P-B": 110,
+      "P-R": 42
+     },
+     "P-C": 16.937354988399072,
+     "P-V": 47.79582366589327,
+     "P-B": 25.52204176334107,
+     "P-R": 9.744779582366588,
+     "YES": 61.1368909512761
+    }
+   },
+   "comparisons": {
+    "oracle_code_pair - no_retrieval": {
+     "pairs": 431,
+     "P-C": {
+      "diff_points": 58.0,
+      "ci95": [
+       53.26,
+       62.97
+      ],
+      "p": 0.0,
+      "p_holm": 0.0
+     },
+     "P-V": {
+      "diff_points": -20.42,
+      "ci95": [
+       -25.64,
+       -14.99
+      ],
+      "p": 0.0
+     },
+     "P-B": {
+      "diff_points": -32.48,
+      "ci95": [
+       -37.12,
+       -28.27
+      ],
+      "p": 0.0
+     },
+     "P-R": {
+      "diff_points": -5.1,
+      "ci95": [
+       -7.42,
+       -3.03
+      ],
+      "p": 0.0
+     }
+    },
+    "oracle_knowledge - no_retrieval": {
+     "pairs": 431,
+     "P-C": {
+      "diff_points": 63.34,
+      "ci95": [
+       58.52,
+       68.22
+      ],
+      "p": 0.0,
+      "p_holm": 0.0
+     },
+     "P-V": {
+      "diff_points": -33.64,
+      "ci95": [
+       -38.89,
+       -28.41
+      ],
+      "p": 0.0
+     },
+     "P-B": {
+      "diff_points": -25.06,
+      "ci95": [
+       -29.7,
+       -20.65
+      ],
+      "p": 0.0
+     },
+     "P-R": {
+      "diff_points": -4.64,
+      "ci95": [
+       -7.01,
+       -2.55
+      ],
+      "p": 0.0
+     }
+    },
+    "wrong_code_pair - no_retrieval": {
+     "pairs": 431,
+     "P-C": {
+      "diff_points": 1.39,
+      "ci95": [
+       -2.77,
+       5.37
+      ],
+      "p": 0.55,
+      "p_holm": 1.0
+     },
+     "P-V": {
+      "diff_points": 1.62,
+      "ci95": [
+       -2.56,
+       5.66
+      ],
+      "p": 0.482
+     },
+     "P-B": {
+      "diff_points": -7.42,
+      "ci95": [
+       -11.5,
+       -3.48
+      ],
+      "p": 0.0
+     },
+     "P-R": {
+      "diff_points": 4.41,
+      "ci95": [
+       0.93,
+       7.93
+      ],
+      "p": 0.018
+     }
+    },
+    "oracle_code_pair - code_pair": {
+     "pairs": 431,
+     "P-C": {
+      "diff_points": 55.22,
+      "ci95": [
+       50.23,
+       60.05
+      ],
+      "p": 0.0,
+      "p_holm": 0.0
+     },
+     "P-V": {
+      "diff_points": -21.35,
+      "ci95": [
+       -26.62,
+       -16.01
+      ],
+      "p": 0.0
+     },
+     "P-B": {
+      "diff_points": -26.68,
+      "ci95": [
+       -30.9,
+       -22.61
+      ],
+      "p": 0.0
+     },
+     "P-R": {
+      "diff_points": -7.19,
+      "ci95": [
+       -9.91,
+       -4.64
+      ],
+      "p": 0.0
+     }
+    },
+    "oracle_knowledge - knowledge": {
+     "pairs": 431,
+     "P-C": {
+      "diff_points": 67.29,
+      "ci95": [
+       62.18,
+       72.43
+      ],
+      "p": 0.0,
+      "p_holm": 0.0
+     },
+     "P-V": {
+      "diff_points": -4.87,
+      "ci95": [
+       -9.13,
+       -0.69
+      ],
+      "p": 0.0293
+     },
+     "P-B": {
+      "diff_points": -56.15,
+      "ci95": [
+       -61.02,
+       -51.28
+      ],
+      "p": 0.0
+     },
+     "P-R": {
+      "diff_points": -6.26,
+      "ci95": [
+       -9.01,
+       -3.7
+      ],
+      "p": 0.0
+     }
+    },
+    "wrong_code_pair - code_pair": {
+     "pairs": 431,
+     "P-C": {
+      "diff_points": -1.39,
+      "ci95": [
+       -5.98,
+       3.03
+      ],
+      "p": 0.5733,
+      "p_holm": 1.0
+     },
+     "P-V": {
+      "diff_points": 0.7,
+      "ci95": [
+       -4.13,
+       5.5
+      ],
+      "p": 0.8053
+     },
+     "P-B": {
+      "diff_points": -1.62,
+      "ci95": [
+       -5.79,
+       2.58
+      ],
+      "p": 0.4953
+     },
+     "P-R": {
+      "diff_points": 2.32,
+      "ci95": [
+       -1.39,
+       6.05
+      ],
+      "p": 0.212
+     }
+    },
+    "oracle_knowledge - oracle_code_pair": {
+     "pairs": 431,
+     "P-C": {
+      "diff_points": 5.34,
+      "ci95": [
+       0.23,
+       10.47
+      ],
+      "p": 0.0427,
+      "p_holm": 0.1281
+     },
+     "P-V": {
+      "diff_points": -13.23,
+      "ci95": [
+       -17.67,
+       -9.05
+      ],
+      "p": 0.0
+     },
+     "P-B": {
+      "diff_points": 7.42,
+      "ci95": [
+       4.92,
+       9.95
+      ],
+      "p": 0.0
+     },
+     "P-R": {
+      "diff_points": 0.46,
+      "ci95": [
+       -0.46,
+       1.4
+      ],
+      "p": 0.4467
+     }
+    }
+   }
+  },
+  "glm-5.1": {
+   "checks": {
+    "oracle_code_pair": {
+     "jobs": 870,
+     "answers": 868,
+     "config_model": "glm-5.1",
+     "derangement_shift": null,
+     "evidence_from_own_pair": 435,
+     "pairs": 435
+    },
+    "oracle_knowledge": {
+     "jobs": 870,
+     "answers": 868,
+     "config_model": "glm-5.1",
+     "derangement_shift": null,
+     "evidence_from_own_pair": 435,
+     "pairs": 435
+    },
+    "wrong_code_pair": {
+     "jobs": 870,
+     "answers": 868,
+     "config_model": "glm-5.1",
+     "derangement_shift": 1,
+     "evidence_from_own_pair": 0,
+     "pairs": 435
+    }
+   },
+   "methods": {
+    "no_retrieval": {
+     "answered_pairs": 431,
+     "unknown_functions": 0,
+     "counts": {
+      "P-C": 41,
+      "P-V": 213,
+      "P-B": 157,
+      "P-R": 20
+     },
+     "P-C": 9.51276102088167,
+     "P-V": 49.419953596287705,
+     "P-B": 36.42691415313225,
+     "P-R": 4.640371229698376,
+     "YES": 56.496519721577734
+    },
+    "code_pair": {
+     "answered_pairs": 431,
+     "unknown_functions": 0,
+     "counts": {
+      "P-C": 46,
+      "P-V": 133,
+      "P-B": 229,
+      "P-R": 23
+     },
+     "P-C": 10.672853828306264,
+     "P-V": 30.8584686774942,
+     "P-B": 53.1322505800464,
+     "P-R": 5.336426914153132,
+     "YES": 38.8631090487239
+    },
+    "knowledge": {
+     "answered_pairs": 431,
+     "unknown_functions": 0,
+     "counts": {
+      "P-C": 27,
+      "P-V": 66,
+      "P-B": 319,
+      "P-R": 19
+     },
+     "P-C": 6.2645011600928076,
+     "P-V": 15.31322505800464,
+     "P-B": 74.0139211136891,
+     "P-R": 4.408352668213457,
+     "YES": 20.649651972157773
+    },
+    "oracle_code_pair": {
+     "answered_pairs": 431,
+     "unknown_functions": 0,
+     "counts": {
+      "P-C": 415,
+      "P-V": 5,
+      "P-B": 11,
+      "P-R": 0
+     },
+     "P-C": 96.2877030162413,
+     "P-V": 1.160092807424594,
+     "P-B": 2.5522041763341066,
+     "P-R": 0.0,
+     "YES": 49.303944315545245
+    },
+    "oracle_knowledge": {
+     "answered_pairs": 431,
+     "unknown_functions": 0,
+     "counts": {
+      "P-C": 386,
+      "P-V": 30,
+      "P-B": 11,
+      "P-R": 4
+     },
+     "P-C": 89.55916473317865,
+     "P-V": 6.960556844547564,
+     "P-B": 2.5522041763341066,
+     "P-R": 0.9280742459396751,
+     "YES": 52.204176334106734
+    },
+    "wrong_code_pair": {
+     "answered_pairs": 431,
+     "unknown_functions": 0,
+     "counts": {
+      "P-C": 42,
+      "P-V": 123,
+      "P-B": 228,
+      "P-R": 38
+     },
+     "P-C": 9.744779582366588,
+     "P-V": 28.538283062645007,
+     "P-B": 52.90023201856149,
+     "P-R": 8.816705336426914,
+     "YES": 37.81902552204176
+    }
+   },
+   "comparisons": {
+    "oracle_code_pair - no_retrieval": {
+     "pairs": 431,
+     "P-C": {
+      "diff_points": 86.77,
+      "ci95": [
+       83.45,
+       89.89
+      ],
+      "p": 0.0,
+      "p_holm": 0.0
+     },
+     "P-V": {
+      "diff_points": -48.26,
+      "ci95": [
+       -52.8,
+       -43.49
+      ],
+      "p": 0.0
+     },
+     "P-B": {
+      "diff_points": -33.87,
+      "ci95": [
+       -38.48,
+       -29.4
+      ],
+      "p": 0.0
+     },
+     "P-R": {
+      "diff_points": -4.64,
+      "ci95": [
+       -6.7,
+       -2.77
+      ],
+      "p": 0.0
+     }
+    },
+    "oracle_knowledge - no_retrieval": {
+     "pairs": 431,
+     "P-C": {
+      "diff_points": 80.05,
+      "ci95": [
+       76.33,
+       83.76
+      ],
+      "p": 0.0,
+      "p_holm": 0.0
+     },
+     "P-V": {
+      "diff_points": -42.46,
+      "ci95": [
+       -47.58,
+       -37.18
+      ],
+      "p": 0.0
+     },
+     "P-B": {
+      "diff_points": -33.87,
+      "ci95": [
+       -38.64,
+       -29.43
+      ],
+      "p": 0.0
+     },
+     "P-R": {
+      "diff_points": -3.71,
+      "ci95": [
+       -5.99,
+       -1.62
+      ],
+      "p": 0.0
+     }
+    },
+    "wrong_code_pair - no_retrieval": {
+     "pairs": 431,
+     "P-C": {
+      "diff_points": 0.23,
+      "ci95": [
+       -3.46,
+       3.75
+      ],
+      "p": 0.9193,
+      "p_holm": 1.0
+     },
+     "P-V": {
+      "diff_points": -20.88,
+      "ci95": [
+       -25.17,
+       -16.59
+      ],
+      "p": 0.0
+     },
+     "P-B": {
+      "diff_points": 16.47,
+      "ci95": [
+       12.24,
+       20.88
+      ],
+      "p": 0.0
+     },
+     "P-R": {
+      "diff_points": 4.18,
+      "ci95": [
+       1.14,
+       7.41
+      ],
+      "p": 0.0093
+     }
+    },
+    "oracle_code_pair - code_pair": {
+     "pairs": 431,
+     "P-C": {
+      "diff_points": 85.61,
+      "ci95": [
+       82.01,
+       89.02
+      ],
+      "p": 0.0,
+      "p_holm": 0.0
+     },
+     "P-V": {
+      "diff_points": -29.7,
+      "ci95": [
+       -34.03,
+       -25.58
+      ],
+      "p": 0.0
+     },
+     "P-B": {
+      "diff_points": -50.58,
+      "ci95": [
+       -55.58,
+       -45.67
+      ],
+      "p": 0.0
+     },
+     "P-R": {
+      "diff_points": -5.34,
+      "ci95": [
+       -7.5,
+       -3.27
+      ],
+      "p": 0.0
+     }
+    },
+    "oracle_knowledge - knowledge": {
+     "pairs": 431,
+     "P-C": {
+      "diff_points": 83.29,
+      "ci95": [
+       79.72,
+       86.81
+      ],
+      "p": 0.0,
+      "p_holm": 0.0
+     },
+     "P-V": {
+      "diff_points": -8.35,
+      "ci95": [
+       -12.53,
+       -4.39
+      ],
+      "p": 0.0
+     },
+     "P-B": {
+      "diff_points": -71.46,
+      "ci95": [
+       -75.98,
+       -66.98
+      ],
+      "p": 0.0
+     },
+     "P-R": {
+      "diff_points": -3.48,
+      "ci95": [
+       -5.85,
+       -1.39
+      ],
+      "p": 0.002
+     }
+    },
+    "wrong_code_pair - code_pair": {
+     "pairs": 431,
+     "P-C": {
+      "diff_points": -0.93,
+      "ci95": [
+       -4.61,
+       3.0
+      ],
+      "p": 0.6833,
+      "p_holm": 1.0
+     },
+     "P-V": {
+      "diff_points": -2.32,
+      "ci95": [
+       -6.54,
+       2.06
+      ],
+      "p": 0.2947
+     },
+     "P-B": {
+      "diff_points": -0.23,
+      "ci95": [
+       -5.1,
+       4.42
+      ],
+      "p": 0.9567
+     },
+     "P-R": {
+      "diff_points": 3.48,
+      "ci95": [
+       0.23,
+       6.88
+      ],
+      "p": 0.0473
+     }
+    },
+    "oracle_knowledge - oracle_code_pair": {
+     "pairs": 431,
+     "P-C": {
+      "diff_points": -6.73,
+      "ci95": [
+       -9.79,
+       -3.7
+      ],
+      "p": 0.0,
+      "p_holm": 0.0
+     },
+     "P-V": {
+      "diff_points": 5.8,
+      "ci95": [
+       3.24,
+       8.31
+      ],
+      "p": 0.0
+     },
+     "P-B": {
+      "diff_points": 0.0,
+      "ci95": [
+       -2.09,
+       2.08
+      ],
+      "p": 1.0
+     },
+     "P-R": {
+      "diff_points": 0.93,
+      "ci95": [
+       0.23,
+       1.86
+      ],
+      "p": 0.0433
+     }
+    }
+   }
+  }
+ }
+}

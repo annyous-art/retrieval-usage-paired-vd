@@ -1,0 +1,21 @@
+{
+  "row_id": 614,
+  "pair_id": "p306",
+  "idx": 430470,
+  "target": 0,
+  "cluster": "squid:780c4ea1b4c9d2fb41f6962aa6ed73ae57f74b2b",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p1376",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "a88210e441c011e6f7c1c21ddd1d9e0f71fe182b9da060abee72c47a212b705d",
+        "146f140f3ba2ccdff0c6daeb7dc784efa11c9894bbcdcb9aa75beb4542e3b6a0"
+      ]
+    }
+  ]
+}

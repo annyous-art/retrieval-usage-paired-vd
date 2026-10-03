@@ -1,0 +1,39 @@
+{
+  "row_id": 455,
+  "pair_id": "p227",
+  "idx": 204036,
+  "target": 1,
+  "cluster": "net:b922f622592af76b57cbc566eaeccda0b31a3496",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p703",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "1bf70d0c39e18e3dca8dcc60463e9f6aa2bcd6294d8c4378316c70efb61021fb",
+        "9b981baafe53c98041cef29f8e558063a06ceb377d6c2342ceed583337bacdbf"
+      ]
+    },
+    {
+      "knowledge_id": "p2827",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "91e84ef8aeee65f4e833c27b1c9b85d43236635c219a8ca3effa0de7694423c4",
+        "44e5ad5e3269838674e805b4f983d1928664cbf87a1405928648bfdf43470f3d"
+      ]
+    },
+    {
+      "knowledge_id": "p755",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "a7d78a939e501ae278fd4ba10b8a523f49fbbf71a64394364bce842bdca6d11f",
+        "eab257fd158f60ad2d5a153b652397d93b367ebc67356e8a465ff56979d0564d"
+      ]
+    }
+  ]
+}

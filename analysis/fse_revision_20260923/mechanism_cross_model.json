@@ -1,0 +1,1001 @@
+{
+ "pairs": 431,
+ "runs": [
+  {
+   "config": "BC grouped no-label (+author two-shot)",
+   "model": "glm-5.1",
+   "file": "outdir/prompt_baseline_compatible_glm51_test870/glm-5.1_std_cls_grouped_no_label_baseline_compatible_fewshotegTrue_cls0.jsonl",
+   "prompts_with_second_region": 0,
+   "unknown_pairs": 0,
+   "outcomes": {
+    "P-V": 321,
+    "P-B": 58,
+    "P-C": 32,
+    "P-R": 20
+   },
+   "identical_evidence": 0.478,
+   "focus_hit_pairs": 150,
+   "PC_by_identical_evidence": {
+    "true": 0.0437,
+    "false": 0.1022,
+    "n_true": 206,
+    "n_false": 225,
+    "diff": -0.0585,
+    "ci95": [
+     -0.1079,
+     -0.0108
+    ],
+    "diff_length_adjusted": -0.0476
+   },
+   "PC_by_focus_hit": {
+    "true": 0.12,
+    "false": 0.0498,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": 0.0702,
+    "ci95": [
+     0.0139,
+     0.1304
+    ],
+    "diff_length_adjusted": 0.0482
+   },
+   "PV_by_focus_hit": {
+    "true": 0.76,
+    "false": 0.7367,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": 0.0233,
+    "ci95": [
+     -0.0654,
+     0.1091
+    ],
+    "diff_length_adjusted": 0.0892
+   }
+  },
+  {
+   "config": "BC grouped no-label (+author two-shot)",
+   "model": "gpt-5.5",
+   "file": "outdir/prompt_gpt55_representative_ablation_test870/gpt-5.5_std_cls_grouped_no_label_baseline_compatible_fewshotegTrue_cls0.jsonl",
+   "prompts_with_second_region": 0,
+   "unknown_pairs": 0,
+   "outcomes": {
+    "P-C": 57,
+    "P-V": 308,
+    "P-B": 52,
+    "P-R": 14
+   },
+   "identical_evidence": 0.478,
+   "focus_hit_pairs": 150,
+   "PC_by_identical_evidence": {
+    "true": 0.0728,
+    "false": 0.1867,
+    "n_true": 206,
+    "n_false": 225,
+    "diff": -0.1139,
+    "ci95": [
+     -0.1763,
+     -0.0527
+    ],
+    "diff_length_adjusted": -0.1043
+   },
+   "PC_by_focus_hit": {
+    "true": 0.2133,
+    "false": 0.089,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": 0.1244,
+    "ci95": [
+     0.0521,
+     0.2028
+    ],
+    "diff_length_adjusted": 0.1042
+   },
+   "PV_by_focus_hit": {
+    "true": 0.66,
+    "false": 0.7438,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": -0.0838,
+    "ci95": [
+     -0.1744,
+     0.0064
+    ],
+    "diff_length_adjusted": -0.0285
+   }
+  },
+  {
+   "config": "grouped no-label",
+   "model": "glm-5.1",
+   "file": "outdir/prompt_ablation_glm51_test870/glm-5.1_std_cls_grouped_no_label_fewshotegFalse_cls0.jsonl",
+   "prompts_with_second_region": 0,
+   "unknown_pairs": 0,
+   "outcomes": {
+    "P-V": 180,
+    "P-B": 177,
+    "P-C": 52,
+    "P-R": 22
+   },
+   "identical_evidence": 0.4756,
+   "focus_hit_pairs": 150,
+   "PC_by_identical_evidence": {
+    "true": 0.0878,
+    "false": 0.1504,
+    "n_true": 205,
+    "n_false": 226,
+    "diff": -0.0626,
+    "ci95": [
+     -0.1221,
+     -0.002
+    ],
+    "diff_length_adjusted": -0.0549
+   },
+   "PC_by_focus_hit": {
+    "true": 0.1467,
+    "false": 0.1068,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": 0.0399,
+    "ci95": [
+     -0.0257,
+     0.1089
+    ],
+    "diff_length_adjusted": 0.0312
+   },
+   "PV_by_focus_hit": {
+    "true": 0.4333,
+    "false": 0.4093,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": 0.0241,
+    "ci95": [
+     -0.0709,
+     0.1207
+    ],
+    "diff_length_adjusted": 0.0842
+   }
+  },
+  {
+   "config": "grouped no-label",
+   "model": "gpt-5.5",
+   "file": "outdir/prompt_gpt55_representative_ablation_test870/gpt-5.5_std_cls_grouped_no_label_rag_fewshotegFalse_cls0.jsonl",
+   "prompts_with_second_region": 0,
+   "unknown_pairs": 0,
+   "outcomes": {
+    "P-V": 208,
+    "P-B": 136,
+    "P-C": 65,
+    "P-R": 22
+   },
+   "identical_evidence": 0.4756,
+   "focus_hit_pairs": 150,
+   "PC_by_identical_evidence": {
+    "true": 0.1171,
+    "false": 0.1814,
+    "n_true": 205,
+    "n_false": 226,
+    "diff": -0.0643,
+    "ci95": [
+     -0.1318,
+     0.0052
+    ],
+    "diff_length_adjusted": -0.0531
+   },
+   "PC_by_focus_hit": {
+    "true": 0.22,
+    "false": 0.1139,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": 0.1061,
+    "ci95": [
+     0.0286,
+     0.1823
+    ],
+    "diff_length_adjusted": 0.0842
+   },
+   "PV_by_focus_hit": {
+    "true": 0.4333,
+    "false": 0.5089,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": -0.0756,
+    "ci95": [
+     -0.1764,
+     0.0231
+    ],
+    "diff_length_adjusted": -0.0091
+   }
+  },
+  {
+   "config": "focus only, no evidence",
+   "model": "glm-5.1",
+   "file": "outdir/prompt_ablation_glm51_test870/glm-5.1_std_cls_target_focus_fewshotegFalse_cls0.jsonl",
+   "prompts_with_second_region": 0,
+   "unknown_pairs": 0,
+   "outcomes": {
+    "P-V": 167,
+    "P-B": 174,
+    "P-C": 64,
+    "P-R": 26
+   },
+   "identical_evidence": 0.478,
+   "focus_hit_pairs": 150,
+   "PC_by_identical_evidence": {
+    "true": 0.1117,
+    "false": 0.1822,
+    "n_true": 206,
+    "n_false": 225,
+    "diff": -0.0706,
+    "ci95": [
+     -0.1353,
+     -0.003
+    ],
+    "diff_length_adjusted": -0.0509
+   },
+   "PC_by_focus_hit": {
+    "true": 0.2133,
+    "false": 0.1139,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": 0.0995,
+    "ci95": [
+     0.025,
+     0.1778
+    ],
+    "diff_length_adjusted": 0.07
+   },
+   "PV_by_focus_hit": {
+    "true": 0.4,
+    "false": 0.3808,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": 0.0192,
+    "ci95": [
+     -0.0744,
+     0.1213
+    ],
+    "diff_length_adjusted": 0.0621
+   }
+  },
+  {
+   "config": "focus only, no evidence",
+   "model": "gpt-5.5",
+   "file": "outdir/prompt_gpt55_representative_ablation_test870/gpt-5.5_std_cls_target_focus_rag_fewshotegFalse_cls0.jsonl",
+   "prompts_with_second_region": 0,
+   "unknown_pairs": 0,
+   "outcomes": {
+    "P-V": 167,
+    "P-B": 171,
+    "P-C": 63,
+    "P-R": 30
+   },
+   "identical_evidence": 0.478,
+   "focus_hit_pairs": 150,
+   "PC_by_identical_evidence": {
+    "true": 0.1359,
+    "false": 0.1556,
+    "n_true": 206,
+    "n_false": 225,
+    "diff": -0.0196,
+    "ci95": [
+     -0.0867,
+     0.0469
+    ],
+    "diff_length_adjusted": 0.0003
+   },
+   "PC_by_focus_hit": {
+    "true": 0.1867,
+    "false": 0.1246,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": 0.0621,
+    "ci95": [
+     -0.0103,
+     0.135
+    ],
+    "diff_length_adjusted": 0.0188
+   },
+   "PV_by_focus_hit": {
+    "true": 0.3733,
+    "false": 0.395,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": -0.0217,
+    "ci95": [
+     -0.1229,
+     0.0782
+    ],
+    "diff_length_adjusted": 0.072
+   }
+  },
+  {
+   "config": "inline chunk label",
+   "model": "glm-5.1",
+   "file": "outdir/prompt_ablation_glm51_test870/glm-5.1_std_cls_inline_chunk_label_fewshotegFalse_cls0.jsonl",
+   "prompts_with_second_region": 0,
+   "unknown_pairs": 0,
+   "outcomes": {
+    "P-V": 183,
+    "P-C": 58,
+    "P-B": 162,
+    "P-R": 28
+   },
+   "identical_evidence": 0.4919,
+   "focus_hit_pairs": 150,
+   "PC_by_identical_evidence": {
+    "true": 0.0943,
+    "false": 0.1735,
+    "n_true": 212,
+    "n_false": 219,
+    "diff": -0.0792,
+    "ci95": [
+     -0.1456,
+     -0.013
+    ],
+    "diff_length_adjusted": -0.0633
+   },
+   "PC_by_focus_hit": {
+    "true": 0.1733,
+    "false": 0.1139,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": 0.0595,
+    "ci95": [
+     -0.0141,
+     0.1349
+    ],
+    "diff_length_adjusted": 0.0209
+   },
+   "PV_by_focus_hit": {
+    "true": 0.4667,
+    "false": 0.4021,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": 0.0645,
+    "ci95": [
+     -0.0316,
+     0.1645
+    ],
+    "diff_length_adjusted": 0.1189
+   }
+  },
+  {
+   "config": "GLM-5.1 RAG (GPT-5.5 prompts replayed)",
+   "model": "glm-5.1",
+   "file": "outdir/replay_rag_positive_only/glm-5.1_std_cls_fewshotegFalse1_RAG_870.jsonl",
+   "prompts_with_second_region": 0,
+   "unknown_pairs": 0,
+   "outcomes": {
+    "P-V": 256,
+    "P-B": 74,
+    "P-C": 57,
+    "P-R": 44
+   },
+   "identical_evidence": 0.536,
+   "focus_hit_pairs": 138,
+   "PC_by_identical_evidence": {
+    "true": 0.1039,
+    "false": 0.165,
+    "n_true": 231,
+    "n_false": 200,
+    "diff": -0.0611,
+    "ci95": [
+     -0.1264,
+     0.0037
+    ],
+    "diff_length_adjusted": -0.0627
+   },
+   "PC_by_focus_hit": {
+    "true": 0.1667,
+    "false": 0.116,
+    "n_true": 138,
+    "n_false": 293,
+    "diff": 0.0506,
+    "ci95": [
+     -0.019,
+     0.1272
+    ],
+    "diff_length_adjusted": 0.0566
+   },
+   "PV_by_focus_hit": {
+    "true": 0.5362,
+    "false": 0.6212,
+    "n_true": 138,
+    "n_false": 293,
+    "diff": -0.0849,
+    "ci95": [
+     -0.1886,
+     0.0145
+    ],
+    "diff_length_adjusted": -0.0621
+   }
+  },
+  {
+   "config": "GPT-5.5 RAG (Table main-results)",
+   "model": "gpt-5.5",
+   "file": "data/gpt-5.5_std_cls_fewshotegFalse1_RAG_870.jsonl",
+   "prompts_with_second_region": 0,
+   "unknown_pairs": 0,
+   "outcomes": {
+    "P-B": 160,
+    "P-C": 75,
+    "P-V": 168,
+    "P-R": 28
+   },
+   "identical_evidence": 0.536,
+   "focus_hit_pairs": 138,
+   "PC_by_identical_evidence": {
+    "true": 0.1688,
+    "false": 0.18,
+    "n_true": 231,
+    "n_false": 200,
+    "diff": -0.0112,
+    "ci95": [
+     -0.0835,
+     0.06
+    ],
+    "diff_length_adjusted": 0.0035
+   },
+   "PC_by_focus_hit": {
+    "true": 0.2174,
+    "false": 0.1536,
+    "n_true": 138,
+    "n_false": 293,
+    "diff": 0.0638,
+    "ci95": [
+     -0.0147,
+     0.1467
+    ],
+    "diff_length_adjusted": 0.0125
+   },
+   "PV_by_focus_hit": {
+    "true": 0.3768,
+    "false": 0.3959,
+    "n_true": 138,
+    "n_false": 293,
+    "diff": -0.0191,
+    "ci95": [
+     -0.1216,
+     0.0782
+    ],
+    "diff_length_adjusted": 0.0534
+   }
+  }
+ ],
+ "difficulty_control": {
+  "BC focus | glm zero-shot": {
+   "unknown_pairs": 0,
+   "PC_by_identical_evidence": {
+    "true": 0.034,
+    "false": 0.0978,
+    "n_true": 206,
+    "n_false": 225,
+    "diff": -0.0638,
+    "ci95": [
+     -0.1089,
+     -0.0194
+    ],
+    "diff_length_adjusted": -0.0483
+   },
+   "PC_by_focus_hit": {
+    "true": 0.1067,
+    "false": 0.0463,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": 0.0604,
+    "ci95": [
+     0.0089,
+     0.1161
+    ],
+    "diff_length_adjusted": 0.0161
+   }
+  },
+  "BC focus | glm YES-only": {
+   "unknown_pairs": 0,
+   "PC_by_identical_evidence": {
+    "true": 0.0728,
+    "false": 0.1067,
+    "n_true": 206,
+    "n_false": 225,
+    "diff": -0.0339,
+    "ci95": [
+     -0.0868,
+     0.0187
+    ],
+    "diff_length_adjusted": -0.0171
+   },
+   "PC_by_focus_hit": {
+    "true": 0.1267,
+    "false": 0.0712,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": 0.0555,
+    "ci95": [
+     -0.0015,
+     0.1187
+    ],
+    "diff_length_adjusted": 0.0113
+   }
+  },
+  "BC focus | glm author two-shot": {
+   "unknown_pairs": 0,
+   "PC_by_identical_evidence": {
+    "true": 0.0583,
+    "false": 0.1067,
+    "n_true": 206,
+    "n_false": 225,
+    "diff": -0.0484,
+    "ci95": [
+     -0.1024,
+     0.0021
+    ],
+    "diff_length_adjusted": -0.0324
+   },
+   "PC_by_focus_hit": {
+    "true": 0.1267,
+    "false": 0.0605,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": 0.0662,
+    "ci95": [
+     0.0058,
+     0.1302
+    ],
+    "diff_length_adjusted": 0.0256
+   }
+  },
+  "BC focus | gpt fixed few-shot": {
+   "unknown_pairs": 0,
+   "PC_by_identical_evidence": {
+    "true": 0.0777,
+    "false": 0.1467,
+    "n_true": 206,
+    "n_false": 225,
+    "diff": -0.069,
+    "ci95": [
+     -0.1289,
+     -0.0112
+    ],
+    "diff_length_adjusted": -0.0577
+   },
+   "PC_by_focus_hit": {
+    "true": 0.18,
+    "false": 0.0783,
+    "n_true": 150,
+    "n_false": 281,
+    "diff": 0.1017,
+    "ci95": [
+     0.035,
+     0.1727
+    ],
+    "diff_length_adjusted": 0.0712
+   }
+  },
+  "GPT-5.5 RAG focus | glm zero-shot": {
+   "unknown_pairs": 0,
+   "PC_by_identical_evidence": {
+    "true": 0.0346,
+    "false": 0.105,
+    "n_true": 231,
+    "n_false": 200,
+    "diff": -0.0704,
+    "ci95": [
+     -0.1216,
+     -0.0218
+    ],
+    "diff_length_adjusted": -0.0523
+   },
+   "PC_by_focus_hit": {
+    "true": 0.1304,
+    "false": 0.0375,
+    "n_true": 138,
+    "n_false": 293,
+    "diff": 0.0929,
+    "ci95": [
+     0.0359,
+     0.1522
+    ],
+    "diff_length_adjusted": 0.043
+   }
+  },
+  "GPT-5.5 RAG focus | glm YES-only": {
+   "unknown_pairs": 0,
+   "PC_by_identical_evidence": {
+    "true": 0.0693,
+    "false": 0.115,
+    "n_true": 231,
+    "n_false": 200,
+    "diff": -0.0457,
+    "ci95": [
+     -0.1033,
+     0.0102
+    ],
+    "diff_length_adjusted": -0.0265
+   },
+   "PC_by_focus_hit": {
+    "true": 0.1377,
+    "false": 0.0683,
+    "n_true": 138,
+    "n_false": 293,
+    "diff": 0.0694,
+    "ci95": [
+     0.0075,
+     0.1374
+    ],
+    "diff_length_adjusted": 0.0091
+   }
+  },
+  "GPT-5.5 RAG focus | glm author two-shot": {
+   "unknown_pairs": 0,
+   "PC_by_identical_evidence": {
+    "true": 0.0823,
+    "false": 0.085,
+    "n_true": 231,
+    "n_false": 200,
+    "diff": -0.0027,
+    "ci95": [
+     -0.0567,
+     0.0497
+    ],
+    "diff_length_adjusted": 0.0191
+   },
+   "PC_by_focus_hit": {
+    "true": 0.1377,
+    "false": 0.058,
+    "n_true": 138,
+    "n_false": 293,
+    "diff": 0.0797,
+    "ci95": [
+     0.0163,
+     0.1455
+    ],
+    "diff_length_adjusted": 0.02
+   }
+  },
+  "GPT-5.5 RAG focus | gpt fixed few-shot": {
+   "unknown_pairs": 0,
+   "PC_by_identical_evidence": {
+    "true": 0.0909,
+    "false": 0.14,
+    "n_true": 231,
+    "n_false": 200,
+    "diff": -0.0491,
+    "ci95": [
+     -0.1109,
+     0.0121
+    ],
+    "diff_length_adjusted": -0.0321
+   },
+   "PC_by_focus_hit": {
+    "true": 0.1522,
+    "false": 0.0956,
+    "n_true": 138,
+    "n_false": 293,
+    "diff": 0.0566,
+    "ci95": [
+     -0.0099,
+     0.1262
+    ],
+    "diff_length_adjusted": 0.0097
+   }
+  }
+ },
+ "evidence_effect_within_subsets": {
+  "glm-5.1: grouped no-label vs focus only": {
+   "all": {
+    "pairs": 431,
+    "retrieval": 0.1206,
+    "control": 0.1485,
+    "delta": -0.0278,
+    "ci95": [
+     -0.0673,
+     0.0116
+    ]
+   },
+   "identical_evidence": {
+    "pairs": 205,
+    "retrieval": 0.0878,
+    "control": 0.1073,
+    "delta": -0.0195,
+    "ci95": [
+     -0.0711,
+     0.0338
+    ]
+   },
+   "different_evidence": {
+    "pairs": 226,
+    "retrieval": 0.1504,
+    "control": 0.1858,
+    "delta": -0.0354,
+    "ci95": [
+     -0.0939,
+     0.0237
+    ]
+   },
+   "focus_hit": {
+    "pairs": 150,
+    "retrieval": 0.1467,
+    "control": 0.2133,
+    "delta": -0.0667,
+    "ci95": [
+     -0.1399,
+     0.0075
+    ]
+   },
+   "focus_miss": {
+    "pairs": 281,
+    "retrieval": 0.1068,
+    "control": 0.1139,
+    "delta": -0.0071,
+    "ci95": [
+     -0.0517,
+     0.0373
+    ]
+   }
+  },
+  "gpt-5.5: grouped no-label vs focus only": {
+   "all": {
+    "pairs": 431,
+    "retrieval": 0.1508,
+    "control": 0.1462,
+    "delta": 0.0046,
+    "ci95": [
+     -0.0304,
+     0.0394
+    ]
+   },
+   "identical_evidence": {
+    "pairs": 205,
+    "retrieval": 0.1171,
+    "control": 0.1366,
+    "delta": -0.0195,
+    "ci95": [
+     -0.0703,
+     0.0302
+    ]
+   },
+   "different_evidence": {
+    "pairs": 226,
+    "retrieval": 0.1814,
+    "control": 0.1549,
+    "delta": 0.0265,
+    "ci95": [
+     -0.0194,
+     0.0749
+    ]
+   },
+   "focus_hit": {
+    "pairs": 150,
+    "retrieval": 0.22,
+    "control": 0.1867,
+    "delta": 0.0333,
+    "ci95": [
+     -0.0357,
+     0.1008
+    ]
+   },
+   "focus_miss": {
+    "pairs": 281,
+    "retrieval": 0.1139,
+    "control": 0.1246,
+    "delta": -0.0107,
+    "ci95": [
+     -0.0491,
+     0.0284
+    ]
+   }
+  },
+  "glm-5.1: BC grouped no-label vs author two-shot": {
+   "all": {
+    "pairs": 431,
+    "retrieval": 0.0742,
+    "control": 0.0835,
+    "delta": -0.0093,
+    "ci95": [
+     -0.0415,
+     0.0233
+    ]
+   },
+   "identical_evidence": {
+    "pairs": 206,
+    "retrieval": 0.0437,
+    "control": 0.0583,
+    "delta": -0.0146,
+    "ci95": [
+     -0.055,
+     0.0272
+    ]
+   },
+   "different_evidence": {
+    "pairs": 225,
+    "retrieval": 0.1022,
+    "control": 0.1067,
+    "delta": -0.0044,
+    "ci95": [
+     -0.0558,
+     0.0449
+    ]
+   },
+   "focus_hit": {
+    "pairs": 150,
+    "retrieval": 0.12,
+    "control": 0.1267,
+    "delta": -0.0067,
+    "ci95": [
+     -0.0704,
+     0.0552
+    ]
+   },
+   "focus_miss": {
+    "pairs": 281,
+    "retrieval": 0.0498,
+    "control": 0.0605,
+    "delta": -0.0107,
+    "ci95": [
+     -0.0483,
+     0.0279
+    ]
+   }
+  },
+  "gpt-5.5: BC grouped no-label vs fixed few-shot": {
+   "all": {
+    "pairs": 431,
+    "retrieval": 0.1323,
+    "control": 0.1137,
+    "delta": 0.0186,
+    "ci95": [
+     -0.0208,
+     0.0581
+    ]
+   },
+   "identical_evidence": {
+    "pairs": 206,
+    "retrieval": 0.0728,
+    "control": 0.0777,
+    "delta": -0.0049,
+    "ci95": [
+     -0.0535,
+     0.0419
+    ]
+   },
+   "different_evidence": {
+    "pairs": 225,
+    "retrieval": 0.1867,
+    "control": 0.1467,
+    "delta": 0.04,
+    "ci95": [
+     -0.0193,
+     0.1033
+    ]
+   },
+   "focus_hit": {
+    "pairs": 150,
+    "retrieval": 0.2133,
+    "control": 0.18,
+    "delta": 0.0333,
+    "ci95": [
+     -0.039,
+     0.1118
+    ]
+   },
+   "focus_miss": {
+    "pairs": 281,
+    "retrieval": 0.089,
+    "control": 0.0783,
+    "delta": 0.0107,
+    "ci95": [
+     -0.0339,
+     0.0554
+    ]
+   }
+  },
+  "gpt-5.5: RAG (main table) vs fixed few-shot": {
+   "all": {
+    "pairs": 431,
+    "retrieval": 0.174,
+    "control": 0.1137,
+    "delta": 0.0603,
+    "ci95": [
+     0.021,
+     0.0986
+    ]
+   },
+   "identical_evidence": {
+    "pairs": 231,
+    "retrieval": 0.1688,
+    "control": 0.0909,
+    "delta": 0.0779,
+    "ci95": [
+     0.0216,
+     0.1345
+    ]
+   },
+   "different_evidence": {
+    "pairs": 200,
+    "retrieval": 0.18,
+    "control": 0.14,
+    "delta": 0.04,
+    "ci95": [
+     -0.0147,
+     0.096
+    ]
+   },
+   "focus_hit": {
+    "pairs": 138,
+    "retrieval": 0.2174,
+    "control": 0.1522,
+    "delta": 0.0652,
+    "ci95": [
+     -0.0071,
+     0.1382
+    ]
+   },
+   "focus_miss": {
+    "pairs": 293,
+    "retrieval": 0.1536,
+    "control": 0.0956,
+    "delta": 0.058,
+    "ci95": [
+     0.013,
+     0.1051
+    ]
+   }
+  },
+  "glm-5.1: RAG (GPT-5.5 prompts replayed) vs author two-shot": {
+   "all": {
+    "pairs": 431,
+    "retrieval": 0.1323,
+    "control": 0.0835,
+    "delta": 0.0487,
+    "ci95": [
+     0.0069,
+     0.0905
+    ]
+   },
+   "identical_evidence": {
+    "pairs": 231,
+    "retrieval": 0.1039,
+    "control": 0.0823,
+    "delta": 0.0216,
+    "ci95": [
+     -0.0329,
+     0.0752
+    ]
+   },
+   "different_evidence": {
+    "pairs": 200,
+    "retrieval": 0.165,
+    "control": 0.085,
+    "delta": 0.08,
+    "ci95": [
+     0.0145,
+     0.1463
+    ]
+   },
+   "focus_hit": {
+    "pairs": 138,
+    "retrieval": 0.1667,
+    "control": 0.1377,
+    "delta": 0.029,
+    "ci95": [
+     -0.0612,
+     0.1148
+    ]
+   },
+   "focus_miss": {
+    "pairs": 293,
+    "retrieval": 0.116,
+    "control": 0.058,
+    "delta": 0.058,
+    "ci95": [
+     0.0132,
+     0.1047
+    ]
+   }
+  }
+ },
+ "same_evidence_across_models": {
+  "focus only, no evidence": 1.0,
+  "grouped no-label": 1.0,
+  "BC grouped no-label (+author two-shot)": 1.0
+ }
+}

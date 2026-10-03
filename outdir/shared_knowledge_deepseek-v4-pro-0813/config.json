@@ -1,0 +1,23 @@
+{
+  "config": {
+    "context_policy_sha256": "a0d8e5662f45ae9585cc79dc85b36deff23bcbe66cecb025b75f80fe2d4049eb",
+    "model": "deepseek-v4-pro-0813",
+    "api_client_sha256": "68306eae9d449513baac4eba7ab670d73a955909301c532b5cdc0f1be45d856a",
+    "base_url": "<openai-compatible endpoint>",
+    "temperature": 0,
+    "max_tokens": 4096,
+    "prompt_strategy": "std",
+    "seed": 20260915
+  },
+  "arms": {
+    "knowledge": "knowledge_gpt55",
+    "knowledge_no_fix": "knowledge_no_fix_gpt55"
+  },
+  "files": {
+    "targets.jsonl": "1117d0ff08ec6db8ce7870b624eef853b4742bbb21182c4ab9b1ccf84e2e0074",
+    "detection_jobs.jsonl": "28d8935cb9f9406fb37b8f1fed933754fa14804c45f001d138b5001e0124a1c0"
+  },
+  "knowledge_source_jobs_sha256": "03d7967cb1aaafbafc2ddd7bd0c8aaf717db7da7ce1f0c4705e1b77ebdd20975",
+  "predictions_sha256": "96958067c5b520d9f0165f8b613d23ba0d78104b3daa539531748a3b4788de53",
+  "script_sha256": "60455b093d41ea38b4bc4de32c833f0f1e4e77da6fe4a2ac8833f4dad8fd0802"
+}

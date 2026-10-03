@@ -1,0 +1,39 @@
+{
+  "row_id": 205,
+  "pair_id": "p102",
+  "idx": 196894,
+  "target": 1,
+  "cluster": "cryptopp:9425e16437439e68c7d96abef922167d68fafaff",
+  "raw_final_result": -1,
+  "prediction": 0,
+  "decision_status": "exhausted_no_match",
+  "trace": [
+    {
+      "knowledge_id": "p1651",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "e2b4aaa66c6c9e0903b01e33591782a1972b9d395089225bfc8651c677ac38a4",
+        "732dfdf284c26ebe23c503a6590c5967bf9b28b3b4dcf63e3419bd3cc56e409c"
+      ]
+    },
+    {
+      "knowledge_id": "p47",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "fcce21a3d8571b2694b37b2479f0fc3c4d984e2823abe461aa1d383545a687fc",
+        "161170eeb060aa28bae2cd050c76e71f24a1f1644560cd8cc0e60d0520886f90"
+      ]
+    },
+    {
+      "knowledge_id": "p3752",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "66b4b6ed355c1b9c605b5e243dd3c843bafc43940829f73effdbb510486d690d",
+        "bf54972530fda86df4ff1f18fc39860bfe42be0e74f0db118595a73beb148e9c"
+      ]
+    }
+  ]
+}

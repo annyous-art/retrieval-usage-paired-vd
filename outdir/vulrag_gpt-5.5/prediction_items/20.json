@@ -1,0 +1,30 @@
+{
+  "row_id": 20,
+  "pair_id": "p9",
+  "idx": 220100,
+  "target": 0,
+  "cluster": "linux:ab0fc21bc7105b54bafd85bd8b82742f9e68898a",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p581",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "441773017602219a3fbb9f1f9003b456ef6ca9a2d764a0679c119ec0fd91475e",
+        "62fd63f413f1117c71c8d58a113010d843f68b1504a2f4737371f3c6dd227a3a"
+      ]
+    },
+    {
+      "knowledge_id": "p640",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "63164fd8689794c6abddfc9be7b9584ca7cdccb2cd6527388f4ae59cb5fa93b4",
+        "7c42bb2b1c70d49fd55bd91b24aeb601d76d43135cbb9c3948e6690e1981fce5"
+      ]
+    }
+  ]
+}

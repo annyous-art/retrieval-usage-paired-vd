@@ -1,0 +1,32 @@
+{
+  "selected": 4,
+  "completed": 4,
+  "remaining": 0,
+  "complete": true,
+  "returned_models_after_repeat": {
+    "gpt-5.5": 4
+  },
+  "label_transitions_completed_only": {
+    "1->1": 1,
+    "0->0": 3
+  },
+  "label_changed": 0,
+  "exact_response_text_same": 0,
+  "by_arm_completed_only": {
+    "code_pair": {
+      "completed": 1,
+      "label_changed": 0
+    },
+    "knowledge_no_fix": {
+      "completed": 2,
+      "label_changed": 0
+    },
+    "knowledge": {
+      "completed": 1,
+      "label_changed": 0
+    }
+  },
+  "original_predictions_modified": false,
+  "knowledge_reextracted": false,
+  "warning": "Selection used the language of the original answer. Only the selected answers are replaced in the merged file."
+}

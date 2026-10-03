@@ -1,0 +1,21 @@
+{
+  "row_id": 197,
+  "pair_id": "p98",
+  "idx": 196860,
+  "target": 1,
+  "cluster": "gpac:a51f951b878c2b73c1d8e2f1518c7cdc5fb82c3f",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p2016",
+      "cause": 0,
+      "solution": 1,
+      "call_ids": [
+        "900e3f113e111593eb2cdbcc7a3b3b4e8576015c4832c155ae16174135a8d986",
+        "9f16f1dcb78fcbf5e6ea9170719f54a9b85d4df79d775b915ca10d0fc2c9b0e6"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "row_id": 239,
+  "pair_id": "p119",
+  "idx": 197326,
+  "target": 1,
+  "cluster": "tensorflow:f09caa532b6e1ac8d2aa61b7832c78c5b79300c6",
+  "raw_final_result": -1,
+  "prediction": 0,
+  "decision_status": "exhausted_no_match",
+  "trace": [
+    {
+      "knowledge_id": "p2108",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "2643b397ea5a8cfcf64e98595fdbaf66ef4cba789d66e5171270c6358574572d",
+        "103d39652e7b721b7269fbd7335a3e33f56186b614f136d34e1bfc6b9e4eb2fb"
+      ]
+    },
+    {
+      "knowledge_id": "p707",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "c19be0f3001dd8f01338bd4ba0b611cd6dcb95a0c9563b7c4872a08a3300cf81",
+        "cfdf1099f06b391d7d2451d11f36910c7e10363ca1cbcecf0273b787d71ac169"
+      ]
+    },
+    {
+      "knowledge_id": "p1770",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "6cff7b1a961200d0fadeb14c327ba444335b0704ef787688cde57633d8026a46",
+        "08a96ca615d9132fd121ad3b10ce947219c10edeb71d4a92f49e511a596e9e10"
+      ]
+    }
+  ]
+}

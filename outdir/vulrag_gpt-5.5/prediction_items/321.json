@@ -1,0 +1,21 @@
+{
+  "row_id": 321,
+  "pair_id": "p160",
+  "idx": 198566,
+  "target": 1,
+  "cluster": "libmobi:eafc415bc6067e72577f70d6dd5acbf057ce6e6f",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p324",
+      "cause": 1,
+      "solution": 1,
+      "call_ids": [
+        "2af5c939fdf79267595be894e54809485386771dabf3f89ffefdc161f3c9b4e1",
+        "b88d036576eaf335a90b6ea6db380ee91511c2db7fd2f5b34dfb94dbef769501"
+      ]
+    }
+  ]
+}

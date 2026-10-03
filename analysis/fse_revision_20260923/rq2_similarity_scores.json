@@ -1,0 +1,133 @@
+{
+ "pairs": 431,
+ "runs": {
+  "B positive-weighted": {
+   "functions_without_retrieved_items": 2,
+   "top1": {
+    "pairs_used": 430,
+    "within_pair_abs_diff_median": 0.0,
+    "within_pair_abs_diff_mean": [
+     0.0041,
+     [
+      0.0034,
+      0.005
+     ]
+    ],
+    "within_pair_exactly_equal": 0.4279,
+    "between_pair_abs_diff_median": 0.01361,
+    "between_pair_abs_diff_mean": 0.01737,
+    "within_below_between_median": 0.9023
+   },
+   "meank": {
+    "pairs_used": 430,
+    "within_pair_abs_diff_median": 3e-05,
+    "within_pair_abs_diff_mean": [
+     0.004,
+     [
+      0.0033,
+      0.0048
+     ]
+    ],
+    "within_pair_exactly_equal": 0.3953,
+    "between_pair_abs_diff_median": 0.01296,
+    "between_pair_abs_diff_mean": 0.01601,
+    "within_below_between_median": 0.907
+   },
+   "lean_score": "not applicable: the positive-only index returns no safe/fixed evidence, so the margin equals the top-1 score"
+  },
+  "B balanced BC": {
+   "functions_without_retrieved_items": 0,
+   "top1": {
+    "pairs_used": 431,
+    "within_pair_abs_diff_median": 6e-05,
+    "within_pair_abs_diff_mean": [
+     0.005,
+     [
+      0.0042,
+      0.0059
+     ]
+    ],
+    "within_pair_exactly_equal": 0.4084,
+    "between_pair_abs_diff_median": 0.01785,
+    "between_pair_abs_diff_mean": 0.02268,
+    "within_below_between_median": 0.9258
+   },
+   "meank": {
+    "pairs_used": 431,
+    "within_pair_abs_diff_median": 0.00042,
+    "within_pair_abs_diff_mean": [
+     0.005,
+     [
+      0.0043,
+      0.0059
+     ]
+    ],
+    "within_pair_exactly_equal": 0.3689,
+    "between_pair_abs_diff_median": 0.01517,
+    "between_pair_abs_diff_mean": 0.0191,
+    "within_below_between_median": 0.8956
+   },
+   "lean_score": {
+    "definition": "best vulnerable-side minus best safe/fixed-side score",
+    "median_value": 0.0028,
+    "pairs_tied": 177,
+    "vulnerable_higher_among_untied": 0.5354,
+    "vulnerable_higher_ci_untied": [
+     0.5354,
+     [
+      0.4739,
+      0.5978
+     ]
+    ],
+    "median_abs_diff": 0.00014
+   }
+  },
+  "C patch-contrast": {
+   "functions_without_retrieved_items": 0,
+   "top1": {
+    "pairs_used": 431,
+    "within_pair_abs_diff_median": 0.0,
+    "within_pair_abs_diff_mean": [
+     0.0029,
+     [
+      0.0024,
+      0.0035
+     ]
+    ],
+    "within_pair_exactly_equal": 0.4849,
+    "between_pair_abs_diff_median": 0.0136,
+    "between_pair_abs_diff_mean": 0.01699,
+    "within_below_between_median": 0.9466
+   },
+   "meank": {
+    "pairs_used": 431,
+    "within_pair_abs_diff_median": 0.0,
+    "within_pair_abs_diff_mean": [
+     0.0028,
+     [
+      0.0023,
+      0.0034
+     ]
+    ],
+    "within_pair_exactly_equal": 0.4478,
+    "between_pair_abs_diff_median": 0.01418,
+    "between_pair_abs_diff_mean": 0.01684,
+    "within_below_between_median": 0.9582
+   },
+   "lean_score": {
+    "definition": "similarity to historical vulnerable side minus fixed side",
+    "median_value": 4e-05,
+    "pairs_tied": 210,
+    "vulnerable_higher_among_untied": 0.5339,
+    "vulnerable_higher_ci_untied": [
+     0.5339,
+     [
+      0.464,
+      0.6009
+     ]
+    ],
+    "median_abs_diff": 0.0
+   }
+  }
+ }
+}

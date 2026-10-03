@@ -1,0 +1,20 @@
+{
+ "cwe_version": "4.20",
+ "cwe_entries": 748,
+ "targets": 1240,
+ "code_model": "/data/codet5p-110m-embedding",
+ "filter": "not deprecated; not CWE-1194; Applicable_Platforms lists Java, Not Language-Specific, or no platform",
+ "outputs_sha256": {
+  "cwe_entries.jsonl": "5c30ecbcce693d026e52c3872539b94e52e1817370d81461444b79d35f7fc5c7",
+  "cve_entries.jsonl": "e404f42c441226239fa4e370f4f12bb52229ab7df1dd0252b310ac9d782953db",
+  "retrieval_cwe_code.jsonl": "b2abe8a13a3200845cd3b8b1bd713e7afd0f130a6a64222b27170854e3af5270",
+  "retrieval_cwe_desc.jsonl": "e341dbf04ad233c9b31101d7cc5a8fa9beb5f58858f249b3fff1a17a4e165bfd",
+  "retrieval_cve_desc.jsonl": "882ed52d59636b36e3b41b2374cdd4a1058e9babd701c7b8f666b2d1a044b472"
+ },
+ "cve_entries": 508,
+ "text_model": "sentence-transformers/all-mpnet-base-v2",
+ "entries_file_rows": 748,
+ "entries_version": "4.20",
+ "source": "out/java_e/e_cwe_code.jsonl",
+ "keyed_by": "row_id of outdir/java_fc_*/targets.jsonl"
+}

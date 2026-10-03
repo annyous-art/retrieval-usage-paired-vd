@@ -1,0 +1,13 @@
+error_type,taxonomy,avg_char_len,avg_yes_vote_count,n,pred_0,pred_1,target_0,target_1
+correct,correct,5149.5,5.18,460,102,358,102,358
+FP,yes_prior_consensus_false_positive,6290.47,6.79,254,0,254,254,0
+FP,risky_pattern_false_alarm:error_handling,4880.76,4.29,55,0,55,55,0
+FN,conservative_consensus_false_negative,4775.05,0.1,42,42,0,0,42
+FN,semantic_pattern_false_negative:error_handling,1384.35,3.13,23,23,0,0,23
+FP,risky_pattern_false_alarm:bounds,3031.35,4.6,20,0,20,20,0
+FN,semantic_pattern_false_negative:bounds,1398.0,4.0,6,6,0,0,6
+FN,long_context_false_negative,16378.0,3.0,4,4,0,0,4
+FN,retrieval_misleading_or_ambiguous:retrieval_low_margin,1722.0,2.0,1,1,0,0,1
+FN,semantic_pattern_false_negative:memory_api,2921.0,5.0,1,1,0,0,1
+FP,risky_pattern_false_alarm:lifecycle,251.0,4.0,1,0,1,1,0
+FP,risky_pattern_false_alarm:memory_api,2915.0,4.0,1,0,1,1,0

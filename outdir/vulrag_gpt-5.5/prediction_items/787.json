@@ -1,0 +1,30 @@
+{
+  "row_id": 787,
+  "pair_id": "p393",
+  "idx": 214358,
+  "target": 1,
+  "cluster": "clamav-devel:224fee54dd6cd8933d7007331ec2bfca0398d4b4",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p365",
+      "cause": 0,
+      "solution": 0,
+      "call_ids": [
+        "b9e2d652ecb3d01ee604c4eb2d55e88f6aed008b3eaca8f327ff620766ab036f",
+        "eb3ebbe38f16f179dc47321f8f9c86dcd6e1e62d10392fc273d015de3ed19738"
+      ]
+    },
+    {
+      "knowledge_id": "p881",
+      "cause": 0,
+      "solution": 1,
+      "call_ids": [
+        "892de6f7a9af55005616d41b98bab94a89a25aeb743f53d9a943f58b8493e680",
+        "a0e3597a50b92fcf505fa9231e357e44182223296a1344f67019033bf692ab69"
+      ]
+    }
+  ]
+}

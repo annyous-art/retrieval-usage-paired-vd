@@ -1,0 +1,21 @@
+{
+  "row_id": 149,
+  "pair_id": "p74",
+  "idx": 195801,
+  "target": 1,
+  "cluster": "php-src:0c8a2a2cd1056b7dc403eacb5d2c0eec6ce47c6f",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p1948",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "8043756d22a6817251d34df890415ecbfa9dfc3e9fb40253662a554187796ee1",
+        "abab2bd84dbe29e6ca6bacd684a987a8d18f85b7a3d22eb92e079e1d53b3053a"
+      ]
+    }
+  ]
+}

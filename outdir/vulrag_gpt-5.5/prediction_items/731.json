@@ -1,0 +1,21 @@
+{
+  "row_id": 731,
+  "pair_id": "p365",
+  "idx": 212339,
+  "target": 1,
+  "cluster": "icecast-server:03ea74c04a5966114c2fe66e4e6892d11a68181e",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p484",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "45c2baca607b6c0bf45d903bb6a31c2bbdd09bd2c71008072af925b1c192c509",
+        "3736e0d58afcbc005c48a91da04b6f07180728f6793e1c8a676d4ee05663c3a9"
+      ]
+    }
+  ]
+}

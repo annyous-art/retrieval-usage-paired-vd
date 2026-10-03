@@ -1,0 +1,21 @@
+{
+  "row_id": 833,
+  "pair_id": "p416",
+  "idx": 216515,
+  "target": 1,
+  "cluster": "openssl:939b4960276b040fc0ed52232238fcc9e2e9ec21",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p110",
+      "cause": 0,
+      "solution": 1,
+      "call_ids": [
+        "7762ff96e7ccd158088f1982c0541a389c5fe9d8d3cfd156d9090314b78c9214",
+        "217aa1bc6b1fa26031781e6b3c8c224b2c5dac9e6888f4b96b5077f27fa857f1"
+      ]
+    }
+  ]
+}

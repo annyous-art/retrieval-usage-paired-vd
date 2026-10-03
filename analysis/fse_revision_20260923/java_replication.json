@@ -1,0 +1,392 @@
+{
+ "pairs": 620,
+ "clusters": 251,
+ "same_items": {
+  "A (two demonstrations)": 0.7032,
+  "FC candidate (C, D)": 0.7581
+ },
+ "models": {
+  "gpt-5.5": {
+   "methods": {
+    "two_shot": {
+     "pairs": 620,
+     "P-C": 0.1129,
+     "P-V": 0.3871,
+     "P-B": 0.4129,
+     "P-R": 0.0871,
+     "YES": 0.4871
+    },
+    "A": {
+     "pairs": 620,
+     "P-C": 0.1597,
+     "P-V": 0.3032,
+     "P-B": 0.4694,
+     "P-R": 0.0677,
+     "YES": 0.4169
+    },
+    "no_retrieval": {
+     "pairs": 620,
+     "P-C": 0.1194,
+     "P-V": 0.2419,
+     "P-B": 0.5677,
+     "P-R": 0.071,
+     "YES": 0.3371
+    },
+    "code_pair": {
+     "pairs": 620,
+     "P-C": 0.1129,
+     "P-V": 0.1919,
+     "P-B": 0.6339,
+     "P-R": 0.0613,
+     "YES": 0.279
+    },
+    "knowledge": {
+     "pairs": 620,
+     "P-C": 0.0742,
+     "P-V": 0.1032,
+     "P-B": 0.7613,
+     "P-R": 0.0613,
+     "YES": 0.171
+    },
+    "knowledge_no_fix": {
+     "pairs": 620,
+     "P-C": 0.0919,
+     "P-V": 0.1258,
+     "P-B": 0.7081,
+     "P-R": 0.0742,
+     "YES": 0.2089
+    }
+   },
+   "comparisons": {
+    "A - two_shot": {
+     "P-C": {
+      "diff_points": 4.68,
+      "ci95": [
+       1.28,
+       8.05
+      ],
+      "p": 0.008,
+      "p_holm": 0.008
+     },
+     "P-B": {
+      "diff_points": 5.65,
+      "ci95": [
+       2.59,
+       8.64
+      ],
+      "p": 0.0
+     }
+    },
+    "code_pair - no_retrieval": {
+     "P-C": {
+      "diff_points": -0.65,
+      "ci95": [
+       -3.52,
+       2.26
+      ],
+      "p": 0.7027,
+      "p_holm": 0.7027
+     },
+     "P-B": {
+      "diff_points": 6.61,
+      "ci95": [
+       3.23,
+       10.07
+      ],
+      "p": 0.0
+     }
+    },
+    "knowledge - no_retrieval": {
+     "P-C": {
+      "diff_points": -4.52,
+      "ci95": [
+       -8.01,
+       -1.01
+      ],
+      "p": 0.0153,
+      "p_holm": 0.0459
+     },
+     "P-B": {
+      "diff_points": 19.35,
+      "ci95": [
+       14.97,
+       24.01
+      ],
+      "p": 0.0
+     }
+    },
+    "knowledge_no_fix - no_retrieval": {
+     "P-C": {
+      "diff_points": -2.74,
+      "ci95": [
+       -6.16,
+       0.54
+      ],
+      "p": 0.116,
+      "p_holm": 0.232
+     },
+     "P-B": {
+      "diff_points": 14.03,
+      "ci95": [
+       10.33,
+       17.98
+      ],
+      "p": 0.0
+     }
+    },
+    "knowledge - code_pair": {
+     "P-C": {
+      "diff_points": -3.87,
+      "ci95": [
+       -6.81,
+       -0.99
+      ],
+      "p": 0.0093,
+      "p_holm": 0.0372
+     },
+     "P-B": {
+      "diff_points": 12.74,
+      "ci95": [
+       9.25,
+       16.26
+      ],
+      "p": 0.0
+     }
+    }
+   },
+   "A_by_demonstrations": {
+    "same demonstrations": {
+     "pairs": 436,
+     "added_separated_pairs": 23,
+     "P-C": {
+      "diff_points": 5.28,
+      "ci95": [
+       1.4,
+       9.38
+      ],
+      "p": 0.008
+     },
+     "P-B": {
+      "diff_points": 6.65,
+      "ci95": [
+       2.99,
+       10.36
+      ],
+      "p": 0.0
+     }
+    },
+    "different demonstrations": {
+     "pairs": 184,
+     "added_separated_pairs": 6,
+     "P-C": {
+      "diff_points": 3.26,
+      "ci95": [
+       -3.0,
+       9.47
+      ],
+      "p": 0.3753
+     },
+     "P-B": {
+      "diff_points": 3.26,
+      "ci95": [
+       -2.34,
+       8.98
+      ],
+      "p": 0.304
+     }
+    }
+   }
+  },
+  "glm-5.1": {
+   "methods": {
+    "two_shot": {
+     "pairs": 620,
+     "P-C": 0.1903,
+     "P-V": 0.2774,
+     "P-B": 0.4339,
+     "P-R": 0.0984,
+     "YES": 0.4218
+    },
+    "A": {
+     "pairs": 620,
+     "P-C": 0.1532,
+     "P-V": 0.1532,
+     "P-B": 0.621,
+     "P-R": 0.0726,
+     "YES": 0.2661
+    },
+    "no_retrieval": {
+     "pairs": 620,
+     "P-C": 0.0806,
+     "P-V": 0.1903,
+     "P-B": 0.679,
+     "P-R": 0.05,
+     "YES": 0.2556
+    },
+    "code_pair": {
+     "pairs": 620,
+     "P-C": 0.0935,
+     "P-V": 0.1306,
+     "P-B": 0.7097,
+     "P-R": 0.0661,
+     "YES": 0.2105
+    },
+    "knowledge": {
+     "pairs": 620,
+     "P-C": 0.0694,
+     "P-V": 0.071,
+     "P-B": 0.821,
+     "P-R": 0.0387,
+     "YES": 0.125
+    },
+    "knowledge_no_fix": {
+     "pairs": 620,
+     "P-C": 0.0984,
+     "P-V": 0.079,
+     "P-B": 0.7774,
+     "P-R": 0.0452,
+     "YES": 0.1508
+    }
+   },
+   "comparisons": {
+    "A - two_shot": {
+     "P-C": {
+      "diff_points": -3.71,
+      "ci95": [
+       -7.69,
+       0.17
+      ],
+      "p": 0.0687,
+      "p_holm": 0.0687
+     },
+     "P-B": {
+      "diff_points": 18.71,
+      "ci95": [
+       14.73,
+       22.81
+      ],
+      "p": 0.0
+     }
+    },
+    "code_pair - no_retrieval": {
+     "P-C": {
+      "diff_points": 1.29,
+      "ci95": [
+       -1.27,
+       3.88
+      ],
+      "p": 0.3813,
+      "p_holm": 0.7761
+     },
+     "P-B": {
+      "diff_points": 3.06,
+      "ci95": [
+       -0.72,
+       6.78
+      ],
+      "p": 0.1127
+     }
+    },
+    "knowledge - no_retrieval": {
+     "P-C": {
+      "diff_points": -1.13,
+      "ci95": [
+       -4.01,
+       1.82
+      ],
+      "p": 0.444,
+      "p_holm": 0.7761
+     },
+     "P-B": {
+      "diff_points": 14.19,
+      "ci95": [
+       9.39,
+       19.19
+      ],
+      "p": 0.0
+     }
+    },
+    "knowledge_no_fix - no_retrieval": {
+     "P-C": {
+      "diff_points": 1.77,
+      "ci95": [
+       -1.13,
+       4.58
+      ],
+      "p": 0.2587,
+      "p_holm": 0.7761
+     },
+     "P-B": {
+      "diff_points": 9.84,
+      "ci95": [
+       5.03,
+       14.92
+      ],
+      "p": 0.0
+     }
+    },
+    "knowledge - code_pair": {
+     "P-C": {
+      "diff_points": -2.42,
+      "ci95": [
+       -5.36,
+       0.36
+      ],
+      "p": 0.1087,
+      "p_holm": 0.4348
+     },
+     "P-B": {
+      "diff_points": 11.13,
+      "ci95": [
+       7.16,
+       15.15
+      ],
+      "p": 0.0
+     }
+    }
+   },
+   "A_by_demonstrations": {
+    "same demonstrations": {
+     "pairs": 436,
+     "added_separated_pairs": -20,
+     "P-C": {
+      "diff_points": -4.59,
+      "ci95": [
+       -9.34,
+       0.24
+      ],
+      "p": 0.066
+     },
+     "P-B": {
+      "diff_points": 21.1,
+      "ci95": [
+       16.4,
+       25.83
+      ],
+      "p": 0.0
+     }
+    },
+    "different demonstrations": {
+     "pairs": 184,
+     "added_separated_pairs": -3,
+     "P-C": {
+      "diff_points": -1.63,
+      "ci95": [
+       -8.96,
+       5.94
+      ],
+      "p": 0.7227
+     },
+     "P-B": {
+      "diff_points": 13.04,
+      "ci95": [
+       6.08,
+       19.86
+      ],
+      "p": 0.0
+     }
+    }
+   }
+  }
+ }
+}

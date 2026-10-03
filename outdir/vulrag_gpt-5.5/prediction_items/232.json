@@ -1,0 +1,21 @@
+{
+  "row_id": 232,
+  "pair_id": "p115",
+  "idx": 255932,
+  "target": 0,
+  "cluster": "tensorflow:ee119d4a498979525046fba1c3dd3f13a039fbb1",
+  "raw_final_result": 0,
+  "prediction": 0,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p2292",
+      "cause": 0,
+      "solution": 1,
+      "call_ids": [
+        "dd29ab4c891fbdd1b0595d7e6ae3553456aa42d6a7a9bea05a7ce4fb461f5032",
+        "9e58c06b78ee271e043e24c71a9be3798c4752c078c363e8e5a185e4c7a3df29"
+      ]
+    }
+  ]
+}

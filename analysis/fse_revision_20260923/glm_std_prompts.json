@@ -1,0 +1,652 @@
+{
+ "pairs": 431,
+ "rows": {
+  "All-vulnerable constant": {
+   "mode": "--",
+   "pairs": 431,
+   "Acc.": 0.5,
+   "F1": 0.6667,
+   "YES": 1.0,
+   "P-C": 0.0,
+   "P-V": 1.0,
+   "P-B": 0.0,
+   "P-R": 0.0
+  },
+  "Zero-shot": {
+   "mode": "--",
+   "pairs": 431,
+   "Acc.": 0.5197,
+   "F1": 0.6336,
+   "YES": 0.8109,
+   "P-C": 0.0673,
+   "P-V": 0.7633,
+   "P-B": 0.1415,
+   "P-R": 0.0278
+  },
+  "YES-only few-shot": {
+   "mode": "--",
+   "pairs": 431,
+   "Acc.": 0.529,
+   "F1": 0.6355,
+   "YES": 0.7923,
+   "P-C": 0.0905,
+   "P-V": 0.7309,
+   "P-B": 0.1462,
+   "P-R": 0.0325
+  },
+  "PrimeVul two-shot": {
+   "mode": "--",
+   "pairs": 431,
+   "Acc.": 0.5174,
+   "F1": 0.6204,
+   "YES": 0.7715,
+   "P-C": 0.0882,
+   "P-V": 0.7007,
+   "P-B": 0.1578,
+   "P-R": 0.0534
+  },
+  "Retrieved demonstrations": {
+   "mode": "A",
+   "pairs": 431,
+   "Acc.": 0.5267,
+   "F1": 0.5546,
+   "YES": 0.5626,
+   "P-C": 0.1323,
+   "P-V": 0.4571,
+   "P-B": 0.3318,
+   "P-R": 0.0789
+  },
+  "Chunks + PrimeVul demonstrations": {
+   "mode": "B",
+   "pairs": 431,
+   "Acc.": 0.5116,
+   "F1": 0.5844,
+   "YES": 0.6752,
+   "P-C": 0.0858,
+   "P-V": 0.6009,
+   "P-B": 0.2506,
+   "P-R": 0.0626
+  },
+  "Positive-weighted chunks": {
+   "mode": "B",
+   "pairs": 431,
+   "Acc.": 0.5104,
+   "F1": 0.5595,
+   "YES": 0.6114,
+   "P-C": 0.0719,
+   "P-V": 0.5499,
+   "P-B": 0.3271,
+   "P-R": 0.051
+  },
+  "Balanced grouped no-label (BC)": {
+   "mode": "B",
+   "pairs": 431,
+   "Acc.": 0.5139,
+   "F1": 0.6276,
+   "YES": 0.8051,
+   "P-C": 0.0742,
+   "P-V": 0.7448,
+   "P-B": 0.1346,
+   "P-R": 0.0464
+  },
+  "Patch contrast": {
+   "mode": "C",
+   "pairs": 431,
+   "Acc.": 0.5104,
+   "F1": 0.5895,
+   "YES": 0.6926,
+   "P-C": 0.0812,
+   "P-V": 0.6218,
+   "P-B": 0.2367,
+   "P-R": 0.0603
+  }
+ },
+ "pairwise": [
+  {
+   "a": "Zero-shot",
+   "b": "YES-only few-shot",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": -0.19,
+   "ci95": [
+    -1.94,
+    1.46
+   ],
+   "p": 0.806,
+   "p_holm": 1.0
+  },
+  {
+   "a": "Zero-shot",
+   "b": "YES-only few-shot",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": -2.32,
+   "ci95": [
+    -5.34,
+    0.69
+   ],
+   "p": 0.1407,
+   "p_holm": 1.0
+  },
+  {
+   "a": "Zero-shot",
+   "b": "PrimeVul two-shot",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": 1.32,
+   "ci95": [
+    -0.22,
+    2.88
+   ],
+   "p": 0.094,
+   "p_holm": 0.564
+  },
+  {
+   "a": "Zero-shot",
+   "b": "PrimeVul two-shot",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": -2.09,
+   "ci95": [
+    -4.9,
+    0.69
+   ],
+   "p": 0.1447,
+   "p_holm": 1.0
+  },
+  {
+   "a": "Zero-shot",
+   "b": "Retrieved demonstrations",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": 7.9,
+   "ci95": [
+    5.51,
+    10.45
+   ],
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "a": "Zero-shot",
+   "b": "Retrieved demonstrations",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": -6.5,
+   "ci95": [
+    -10.07,
+    -3.02
+   ],
+   "p": 0.0007,
+   "p_holm": 0.0147
+  },
+  {
+   "a": "Zero-shot",
+   "b": "Chunks + PrimeVul demonstrations",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": 4.92,
+   "ci95": [
+    2.92,
+    7.07
+   ],
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "a": "Zero-shot",
+   "b": "Chunks + PrimeVul demonstrations",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": -1.86,
+   "ci95": [
+    -5.1,
+    1.17
+   ],
+   "p": 0.2827,
+   "p_holm": 1.0
+  },
+  {
+   "a": "Zero-shot",
+   "b": "Positive-weighted chunks",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": 7.41,
+   "ci95": [
+    5.34,
+    9.82
+   ],
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "a": "Zero-shot",
+   "b": "Positive-weighted chunks",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": -0.46,
+   "ci95": [
+    -3.44,
+    2.57
+   ],
+   "p": 0.806,
+   "p_holm": 1.0
+  },
+  {
+   "a": "Zero-shot",
+   "b": "Balanced grouped no-label (BC)",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": 0.61,
+   "ci95": [
+    -1.16,
+    2.36
+   ],
+   "p": 0.4953,
+   "p_holm": 1.0
+  },
+  {
+   "a": "Zero-shot",
+   "b": "Balanced grouped no-label (BC)",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": -0.7,
+   "ci95": [
+    -3.98,
+    2.55
+   ],
+   "p": 0.688,
+   "p_holm": 1.0
+  },
+  {
+   "a": "YES-only few-shot",
+   "b": "PrimeVul two-shot",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": 1.51,
+   "ci95": [
+    -0.1,
+    3.25
+   ],
+   "p": 0.0673,
+   "p_holm": 0.4711
+  },
+  {
+   "a": "YES-only few-shot",
+   "b": "PrimeVul two-shot",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": 0.23,
+   "ci95": [
+    -2.75,
+    3.04
+   ],
+   "p": 0.9267,
+   "p_holm": 1.0
+  },
+  {
+   "a": "YES-only few-shot",
+   "b": "Retrieved demonstrations",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": 8.1,
+   "ci95": [
+    5.55,
+    10.82
+   ],
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "a": "YES-only few-shot",
+   "b": "Retrieved demonstrations",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": -4.18,
+   "ci95": [
+    -7.91,
+    -0.47
+   ],
+   "p": 0.0333,
+   "p_holm": 0.5328
+  },
+  {
+   "a": "YES-only few-shot",
+   "b": "Chunks + PrimeVul demonstrations",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": 5.11,
+   "ci95": [
+    2.9,
+    7.44
+   ],
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "a": "YES-only few-shot",
+   "b": "Chunks + PrimeVul demonstrations",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": 0.46,
+   "ci95": [
+    -3.02,
+    3.98
+   ],
+   "p": 0.8467,
+   "p_holm": 1.0
+  },
+  {
+   "a": "YES-only few-shot",
+   "b": "Positive-weighted chunks",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": 7.6,
+   "ci95": [
+    5.29,
+    10.16
+   ],
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "a": "YES-only few-shot",
+   "b": "Positive-weighted chunks",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": 1.86,
+   "ci95": [
+    -1.16,
+    5.1
+   ],
+   "p": 0.26,
+   "p_holm": 1.0
+  },
+  {
+   "a": "YES-only few-shot",
+   "b": "Balanced grouped no-label (BC)",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": 0.8,
+   "ci95": [
+    -0.98,
+    2.65
+   ],
+   "p": 0.3687,
+   "p_holm": 1.0
+  },
+  {
+   "a": "YES-only few-shot",
+   "b": "Balanced grouped no-label (BC)",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": 1.62,
+   "ci95": [
+    -1.62,
+    4.88
+   ],
+   "p": 0.3413,
+   "p_holm": 1.0
+  },
+  {
+   "a": "PrimeVul two-shot",
+   "b": "Retrieved demonstrations",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": 6.59,
+   "ci95": [
+    4.18,
+    9.08
+   ],
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "a": "PrimeVul two-shot",
+   "b": "Retrieved demonstrations",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": -4.41,
+   "ci95": [
+    -8.03,
+    -0.92
+   ],
+   "p": 0.0187,
+   "p_holm": 0.3179
+  },
+  {
+   "a": "PrimeVul two-shot",
+   "b": "Chunks + PrimeVul demonstrations",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": 3.6,
+   "ci95": [
+    1.68,
+    5.69
+   ],
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "a": "PrimeVul two-shot",
+   "b": "Chunks + PrimeVul demonstrations",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": 0.23,
+   "ci95": [
+    -2.78,
+    3.29
+   ],
+   "p": 0.9573,
+   "p_holm": 1.0
+  },
+  {
+   "a": "PrimeVul two-shot",
+   "b": "Positive-weighted chunks",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": 6.09,
+   "ci95": [
+    3.98,
+    8.4
+   ],
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "a": "PrimeVul two-shot",
+   "b": "Positive-weighted chunks",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": 1.62,
+   "ci95": [
+    -1.37,
+    4.67
+   ],
+   "p": 0.3027,
+   "p_holm": 1.0
+  },
+  {
+   "a": "PrimeVul two-shot",
+   "b": "Balanced grouped no-label (BC)",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": -0.71,
+   "ci95": [
+    -2.62,
+    1.16
+   ],
+   "p": 0.4613,
+   "p_holm": 1.0
+  },
+  {
+   "a": "PrimeVul two-shot",
+   "b": "Balanced grouped no-label (BC)",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": 1.39,
+   "ci95": [
+    -1.87,
+    4.61
+   ],
+   "p": 0.4613,
+   "p_holm": 1.0
+  },
+  {
+   "a": "Retrieved demonstrations",
+   "b": "Chunks + PrimeVul demonstrations",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": -2.98,
+   "ci95": [
+    -5.69,
+    -0.4
+   ],
+   "p": 0.0233,
+   "p_holm": 0.1864
+  },
+  {
+   "a": "Retrieved demonstrations",
+   "b": "Chunks + PrimeVul demonstrations",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": 4.64,
+   "ci95": [
+    0.93,
+    8.3
+   ],
+   "p": 0.014,
+   "p_holm": 0.252
+  },
+  {
+   "a": "Retrieved demonstrations",
+   "b": "Positive-weighted chunks",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": -0.49,
+   "ci95": [
+    -3.24,
+    2.36
+   ],
+   "p": 0.7353,
+   "p_holm": 1.0
+  },
+  {
+   "a": "Retrieved demonstrations",
+   "b": "Positive-weighted chunks",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": 6.03,
+   "ci95": [
+    2.78,
+    9.49
+   ],
+   "p": 0.0007,
+   "p_holm": 0.0147
+  },
+  {
+   "a": "Retrieved demonstrations",
+   "b": "Balanced grouped no-label (BC)",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": -7.3,
+   "ci95": [
+    -9.97,
+    -4.73
+   ],
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "a": "Retrieved demonstrations",
+   "b": "Balanced grouped no-label (BC)",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": 5.8,
+   "ci95": [
+    2.3,
+    9.3
+   ],
+   "p": 0.0027,
+   "p_holm": 0.0513
+  },
+  {
+   "a": "Chunks + PrimeVul demonstrations",
+   "b": "Positive-weighted chunks",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": 2.49,
+   "ci95": [
+    0.33,
+    4.67
+   ],
+   "p": 0.0147,
+   "p_holm": 0.1323
+  },
+  {
+   "a": "Chunks + PrimeVul demonstrations",
+   "b": "Positive-weighted chunks",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": 1.39,
+   "ci95": [
+    -1.4,
+    4.41
+   ],
+   "p": 0.3807,
+   "p_holm": 1.0
+  },
+  {
+   "a": "Chunks + PrimeVul demonstrations",
+   "b": "Balanced grouped no-label (BC)",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": -4.32,
+   "ci95": [
+    -6.5,
+    -2.22
+   ],
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "a": "Chunks + PrimeVul demonstrations",
+   "b": "Balanced grouped no-label (BC)",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": 1.16,
+   "ci95": [
+    -2.1,
+    4.59
+   ],
+   "p": 0.548,
+   "p_holm": 1.0
+  },
+  {
+   "a": "Positive-weighted chunks",
+   "b": "Balanced grouped no-label (BC)",
+   "metric": "F1",
+   "pairs": 431,
+   "diff_points": -6.81,
+   "ci95": [
+    -9.09,
+    -4.8
+   ],
+   "p": 0.0,
+   "p_holm": 0.0
+  },
+  {
+   "a": "Positive-weighted chunks",
+   "b": "Balanced grouped no-label (BC)",
+   "metric": "P-C",
+   "pairs": 431,
+   "diff_points": -0.23,
+   "ci95": [
+    -3.05,
+    2.55
+   ],
+   "p": 0.8807,
+   "p_holm": 1.0
+  }
+ ]
+}

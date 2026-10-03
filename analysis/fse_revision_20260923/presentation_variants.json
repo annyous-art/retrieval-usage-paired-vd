@@ -1,0 +1,273 @@
+{
+ "pairs": 431,
+ "rows": [
+  {
+   "family": "Prompt",
+   "evidence": "PrimeVul two-shot",
+   "GLM-5.1": {
+    "F1": 0.620438,
+    "YES": 0.771462,
+    "P-C": 0.088167,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "F1": 0.637422,
+    "YES": 0.795824,
+    "P-C": 0.113689,
+    "pairs": 431
+   }
+  },
+  {
+   "family": "Evidence only",
+   "evidence": "Target focus",
+   "GLM-5.1": {
+    "F1": 0.540351,
+    "YES": 0.491879,
+    "P-C": 0.148492,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "F1": 0.536131,
+    "YES": 0.49536,
+    "P-C": 0.146172,
+    "pairs": 431
+   }
+  },
+  {
+   "family": "Evidence only",
+   "evidence": "No-label",
+   "GLM-5.1": {
+    "F1": 0.530752,
+    "YES": 0.518561,
+    "P-C": 0.12993,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "F1": 0.578603,
+    "YES": 0.562645,
+    "P-C": 0.167053,
+    "pairs": 431
+   }
+  },
+  {
+   "family": "Evidence only",
+   "evidence": "Grouped no-label",
+   "GLM-5.1": {
+    "F1": 0.536416,
+    "YES": 0.50348,
+    "P-C": 0.12065,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "F1": 0.584582,
+    "YES": 0.583527,
+    "P-C": 0.150812,
+    "pairs": 431
+   }
+  },
+  {
+   "family": "Evidence only",
+   "evidence": "Inline func.\\ label",
+   "GLM-5.1": {
+    "F1": 0.547486,
+    "YES": 0.538283,
+    "P-C": 0.12993,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "F1": 0.579934,
+    "YES": 0.552204,
+    "P-C": 0.171694,
+    "pairs": 431
+   }
+  },
+  {
+   "family": "Evidence only",
+   "evidence": "Inline chunk label",
+   "GLM-5.1": {
+    "F1": 0.545866,
+    "YES": 0.524362,
+    "P-C": 0.134571,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "F1": 0.572368,
+    "YES": 0.558005,
+    "P-C": 0.162413,
+    "pairs": 431
+   }
+  },
+  {
+   "family": "Evidence only",
+   "evidence": "Grouped chunk label",
+   "GLM-5.1": {
+    "F1": 0.511905,
+    "YES": 0.474478,
+    "P-C": 0.104408,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "F1": 0.597652,
+    "YES": 0.587007,
+    "P-C": 0.169374,
+    "pairs": 431
+   }
+  },
+  {
+   "family": "With demos",
+   "evidence": "Target focus",
+   "GLM-5.1": {
+    "F1": 0.514145,
+    "YES": 0.443155,
+    "P-C": 0.136891,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "F1": 0.607214,
+    "YES": 0.657773,
+    "P-C": 0.162413,
+    "pairs": 431
+   }
+  },
+  {
+   "family": "With demos",
+   "evidence": "Grouped no-label",
+   "GLM-5.1": {
+    "F1": 0.549836,
+    "YES": 0.559165,
+    "P-C": 0.113689,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "F1": 0.621198,
+    "YES": 0.758701,
+    "P-C": 0.106729,
+    "pairs": 431
+   }
+  },
+  {
+   "family": "With demos",
+   "evidence": "Grouped chunk label",
+   "GLM-5.1": {
+    "F1": 0.549946,
+    "YES": 0.580046,
+    "P-C": 0.102088,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "F1": 0.624426,
+    "YES": 0.763341,
+    "P-C": 0.113689,
+    "pairs": 431
+   }
+  },
+  {
+   "family": "With demos",
+   "evidence": "Inline func.\\ label",
+   "GLM-5.1": {
+    "F1": 0.54955,
+    "YES": 0.530162,
+    "P-C": 0.111369,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "F1": 0.627451,
+    "YES": 0.742459,
+    "P-C": 0.12993,
+    "pairs": 431
+   }
+  },
+  {
+   "family": "With demos",
+   "evidence": "Inline chunk label",
+   "GLM-5.1": {
+    "F1": 0.526437,
+    "YES": 0.509281,
+    "P-C": 0.099768,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "F1": 0.619535,
+    "YES": 0.7471,
+    "P-C": 0.12761,
+    "pairs": 431
+   }
+  },
+  {
+   "family": "BC",
+   "evidence": "Target focus",
+   "GLM-5.1": {
+    "F1": 0.602479,
+    "YES": 0.716937,
+    "P-C": 0.102088,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "F1": 0.622766,
+    "YES": 0.733179,
+    "P-C": 0.12297,
+    "pairs": 431
+   }
+  },
+  {
+   "family": "BC",
+   "evidence": "Grouped no-label",
+   "GLM-5.1": {
+    "F1": 0.627556,
+    "YES": 0.805104,
+    "P-C": 0.074246,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "F1": 0.652952,
+    "YES": 0.796984,
+    "P-C": 0.132251,
+    "pairs": 431
+   }
+  },
+  {
+   "family": "BC",
+   "evidence": "Inline func.\\ label",
+   "GLM-5.1": {
+    "F1": 0.595703,
+    "YES": 0.687935,
+    "P-C": 0.097448,
+    "pairs": 431
+   },
+   "GPT-5.5": {
+    "F1": 0.628988,
+    "YES": 0.772622,
+    "P-C": 0.118329,
+    "pairs": 431
+   }
+  }
+ ],
+ "range_GLM-5.1": {
+  "P-C": [
+   0.074246,
+   0.148492
+  ],
+  "YES": [
+   0.443155,
+   0.805104
+  ],
+  "F1": [
+   0.511905,
+   0.627556
+  ]
+ },
+ "range_GPT-5.5": {
+  "P-C": [
+   0.106729,
+   0.171694
+  ],
+  "YES": [
+   0.49536,
+   0.796984
+  ],
+  "F1": [
+   0.536131,
+   0.652952
+  ]
+ }
+}

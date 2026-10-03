@@ -1,0 +1,14 @@
+{
+ "train": {
+  "pairs": 1564,
+  "commits": 600,
+  "cves": 508,
+  "projects": 279
+ },
+ "test": {
+  "pairs": 620,
+  "commits": 251,
+  "cves": 239,
+  "projects": 118
+ }
+}

@@ -1,0 +1,54 @@
+[
+ {
+  "run": "outdir/empirical_study/bias_controlled_glm51_test870_extra/glm-5.1_metadata_no_cwe.jsonl",
+  "pairs": 431,
+  "identical_prompt_pairs": 415,
+  "outcomes": {
+   "P-V": 298,
+   "P-B": 76,
+   "P-C": 22,
+   "P-R": 19
+  },
+  "P-C_rate_on_identical": 0.053,
+  "P-R_rate_on_identical": 0.0458
+ },
+ {
+  "run": "outdir/empirical_study/bias_controlled_gpt55_test870/gpt-5.5_metadata_no_cwe.jsonl",
+  "pairs": 431,
+  "identical_prompt_pairs": 415,
+  "outcomes": {
+   "P-R": 58,
+   "P-V": 133,
+   "P-B": 167,
+   "P-C": 57
+  },
+  "P-C_rate_on_identical": 0.1373,
+  "P-R_rate_on_identical": 0.1398
+ },
+ {
+  "run": "outdir/empirical_study/bias_controlled_claude47_test870/claude-opus-4-7_metadata_no_cwe.jsonl",
+  "pairs": 431,
+  "identical_prompt_pairs": 415,
+  "outcomes": {
+   "P-V": 371,
+   "P-B": 31,
+   "P-R": 7,
+   "P-C": 6
+  },
+  "P-C_rate_on_identical": 0.0145,
+  "P-R_rate_on_identical": 0.0169
+ },
+ {
+  "run": "outdir/empirical_study/bias_controlled_deepseek_test870/deepseek-v4-pro-0813_metadata_no_cwe.jsonl",
+  "pairs": 431,
+  "identical_prompt_pairs": 415,
+  "outcomes": {
+   "P-B": 336,
+   "P-V": 40,
+   "P-C": 24,
+   "P-R": 15
+  },
+  "P-C_rate_on_identical": 0.0578,
+  "P-R_rate_on_identical": 0.0361
+ }
+]

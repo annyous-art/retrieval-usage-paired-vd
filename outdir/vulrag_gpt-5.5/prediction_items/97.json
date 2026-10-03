@@ -1,0 +1,21 @@
+{
+  "row_id": 97,
+  "pair_id": "p48",
+  "idx": 195388,
+  "target": 1,
+  "cluster": "postgres:160c0258802d10b0600d7671b1bbea55d8e17d45",
+  "raw_final_result": 1,
+  "prediction": 1,
+  "decision_status": "early_decision",
+  "trace": [
+    {
+      "knowledge_id": "p2055",
+      "cause": 1,
+      "solution": 0,
+      "call_ids": [
+        "e75a3625e3b6b0cb5eda17711da55b1cae292a1d3759a5e203a8d0f31f9f9872",
+        "36238ac7911bdabcffadf9eda1c61a438dce0ad30da72efd2d2dbf4081399877"
+      ]
+    }
+  ]
+}
